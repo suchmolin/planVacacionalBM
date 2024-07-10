@@ -1,0 +1,2756 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
+
+
+
+/********** Template CSS **********/
+:root {
+    --primary: #14becd;   /* turquesa */
+    --light: #F0FBFC;
+    --dark: #2a3439;      /* gris oscuro */
+}
+
+
+
+/*****  cambios nuevos template ****/
+
+
+.t_elight {
+    font-family: "Inter", sans-serif; 
+    font-weight: 400;
+    
+  }
+
+
+
+.t_regular {
+  font-family: "Inter", sans-serif; 
+  font-weight: 600;
+  
+}
+
+.t_medium {
+    font-family: "Inter", sans-serif; 
+    font-weight: 500;
+    
+  }
+
+
+  .t_bold {
+    font-family: "Inter", sans-serif; 
+    font-weight: 750;
+    
+  }
+
+
+.t_ebold {
+    font-family: "Inter", sans-serif; 
+    font-weight: 900;
+    
+  }
+
+
+
+.marg_bott_esp {           /* ayuda a bajar los textos del carrusel, para apreciar la imagen */
+    margin-top: 220px;
+}
+
+
+.text_color_aa {        /* azul del logo */
+    color: #001d76;
+}
+
+
+.text_color_bb {       /* magenta del logo */
+    color: #a801a7; 
+}
+
+
+.magenta_lighy {
+    background-color: #f3e7f3;
+}
+
+
+.text_color_cc {       /* turquesa del logo */
+    color: #14becd; 
+}
+
+
+.text_color_zz {       /* gris oscuro */
+    color: #6f7476; 
+}
+
+
+
+.border_l_r_b {
+    border-left: 0.2px grey solid;
+    border-right: 0.2px grey solid;
+    border-bottom: 0.2px grey solid;;
+}
+
+
+
+.border_shadow {
+    box-shadow: 2px 5px 5px grey;
+}
+
+
+.back_whatsupp {
+    background-color: #25D366;
+}
+
+
+.back_magenta {
+    background-color: #a801a7;
+}
+
+.back_turque {
+    background-color: #14becd;
+}
+
+
+.back_turque_h {
+    background-color: #14becd;
+    /* height: 70vh;  /* viewport's height */
+}
+
+.back_turque_hhh {
+    background-color: #14becd;
+     
+}
+
+
+
+
+
+@media (max-width: 350px)
+{
+.back_turque_hhh {     /* no los estoy variando */
+    height: 66rem;   
+        }
+
+
+        .btn_centrate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -10px;
+        }
+
+
+        .muevete_centro {
+
+            margin-left: 10px;
+
+        }
+
+
+        .cent_micro  {
+            margin-left: 4px;
+        }
+
+        .cent_abaco  {
+            margin-left: -3px;
+        }
+
+        .cent_fina  {
+            margin-left: 1px;
+        }
+
+}
+
+@media (min-width: 351px) and (max-width: 560px) 
+{
+.back_turque_hhh {
+    height: 56rem; 
+              
+        }
+
+
+        .btn_centrate {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -10px;
+                }
+
+
+                .muevete_centro {
+
+                    margin-left: 10px;
+        
+                }
+
+                .cent_abaco  {
+                    margin-left: -7px;
+                }
+
+                .cent_fina  {
+                    margin-left: 4px;
+                }
+
+
+}
+
+@media (min-width: 561px)
+{
+.back_turque_hhh {
+    height: 36rem; 
+   
+        
+        }
+}
+
+
+
+
+
+
+
+
+
+.back_turque_rosa_light {
+    background-color: #FFE8FE;
+ 
+    /* height: 70vh;  /* viewport's height */
+}
+
+
+.back_turque_h_light {
+    background-color: #DBF3F9;
+    /* height: 70vh;  /* viewport's height */
+}
+
+
+
+.back_azul_h {
+    background-color: #001D76;
+   /*  height: 70vh;   viewport's height */
+}
+
+
+.back_azul_mora_ll {
+    background-color: #D1DBFA;
+   /*  height: 70vh;   viewport's height */
+}
+
+
+
+
+.white_text {
+    color: white;
+}
+
+
+.azul_logo_text {
+    color: #001d76;
+    
+}
+
+.turque_logo_text {
+    color: #14becd;
+}
+
+
+.turque_logo_text_mini {
+    font-size: 2px;
+    color: #14becd;
+}
+
+
+.turque_logo_text_mini_w {
+    font-size: 2px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.margen_negativo {
+    margin-top: -60px;
+}
+
+
+.margen_menor {
+    margin-top: 10px;
+}
+
+
+.margen_positivo {
+    margin-top: 20px;
+}
+ 
+
+ .margen_positivo_l {
+    margin-top: 8rem;
+}
+
+
+
+.bg_grey {
+
+     background: #eee;
+}
+
+
+
+
+.img_borr {
+    border-radius: 5%;
+  }
+
+
+
+.redondeado_sup {
+    border-radius: 15px 15px 15px 15px;
+} 
+
+
+
+.redondeado_max {
+    border-radius: 50px 50px 50px 50px;
+} 
+
+
+
+/**** fin cambios template ***/
+
+
+
+
+/*  background */
+
+section{
+
+    position: relative;
+
+    width: 100%;
+
+    overflow: hidden;
+
+}
+
+ 
+
+
+
+
+.section-arrows {
+
+    position: relative;
+
+    height: 100px;
+
+}
+
+.section-arrow.left {
+
+    left: 0;
+
+}
+
+.section-arrow {
+
+    position: absolute;
+
+    z-index: 1;
+
+    width: 50%;
+
+    height: 100%;
+
+    bottom: 0;
+
+}
+
+ 
+
+.section-arrow.left:after {
+
+    content: " ";
+
+    width: 0;
+
+    height: 0;
+
+    border-right: 3000px solid transparent;
+
+    position: absolute;
+
+    right: -10px;
+
+    bottom: 0;
+
+}
+
+.section-arrow.right {
+
+    right: 0;
+
+}
+
+.section-arrows.white .section-arrow:after {
+
+    border-bottom: 160px solid #fff;
+
+}
+
+.section-arrows.gray .section-arrow:after {
+
+    border-bottom: 160px solid #eee;
+
+}
+
+
+
+.section-arrow.right:after {
+
+    content: " ";
+
+    width: 0;
+
+    height: 0;
+
+    border-left: 3000px solid transparent;
+
+    position: absolute;
+
+    left: -10px;
+
+    bottom: 0;
+
+}
+
+section.white{
+
+    background: #fff;
+
+}
+
+section.gray{
+
+    background: #eee;
+
+}
+
+
+section.blue_ll{
+
+    background: #dbf3f9;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-arrows_alt {
+
+    position: relative;
+
+    height: 20px;
+
+}
+
+.section-arrow_alt.left {
+
+    left: 0;
+
+}
+
+.section-arrow_alt {
+
+    position: absolute;
+
+    z-index: 1;
+
+    width: 50%;
+
+    height: 100%;
+
+    bottom: 0;
+
+}
+
+ 
+
+.section-arrow_alt.left:after {
+
+    content: " ";
+
+    width: 0;
+
+    height: 0;
+
+    border-right: 3000px solid transparent;
+
+    position: absolute;
+
+    right: -10px;
+
+    bottom: 0;
+
+}
+
+.section-arrow_alt.right {
+
+    right: 0;
+
+}
+
+.section-arrows_alt.white .section-arrow_alt:after {
+
+    border-bottom: 160px solid #fff;
+
+}
+
+.section-arrows_alt.gray .section-arrow_alt:after {
+
+    border-bottom: 160px solid #eee;
+
+}
+
+
+
+.section-arrow_alt.right:after {
+
+    content: " ";
+
+    width: 0;
+
+    height: 0;
+
+    border-left: 3000px solid transparent;
+
+    position: absolute;
+
+    left: -10px;
+
+    bottom: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* fin background */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fw-medium {
+    font-weight: 600 !important;
+}
+
+.fw-semi-bold {
+    font-weight: 700 !important;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 25px;
+    bottom: 25px;
+    z-index: 99;
+}
+
+
+/*** Spinner ***/
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*** Button ***/
+.btn {
+   /* font-family: 'Nunito', sans-serif; */
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+
+.btn-lg-square_r {
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+    
+}
+
+
+.btn-lg-large {
+    width: 102px;
+    height: 66px;
+}
+
+
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 0px;
+}
+
+
+/*** Navbar ***/
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color: #FFFFFF;
+    font-size: 15px;
+    
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar-light .navbar-nav {
+        border-top: 0px solid #EEEEEE;
+    }
+}
+
+.navbar-light .navbar-brand,
+.navbar-light a.btn {
+    height: 75px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #001D76;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar-light.sticky-top {
+    top: -100px;
+    transition: .5s;
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 100%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        transform: rotateX(0deg);
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+}
+
+
+/*** Header carousel ***/
+@media (max-width: 768px) {
+    .header-carousel .owl-carousel-item {
+        position: relative;
+        min-height: 500px;
+    }
+    
+    .header-carousel .owl-carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.header-carousel .owl-nav {
+    position: absolute;
+    top: 85%;
+    right: 8%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.header-carousel .owl-nav .owl-prev,
+.header-carousel .owl-nav .owl-next {
+    margin: 5px 0;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    font-size: 12px;
+    transition: .5s;
+}
+
+
+
+
+
+.header-carousel .owl-nav .owl-prev:hover,
+.header-carousel .owl-nav .owl-next:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.page-header {
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/carousel-1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header-inner {
+    background: rgba(15, 23, 43, .7);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: var(--light);
+}
+
+
+/*** Section Title ***/
+.section-title {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 80px);
+    height: 2px;
+    top: 4px;
+    left: -40px;
+    background: var(--primary);
+    z-index: -1;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 120px);
+    height: 2px;
+    bottom: 5px;
+    left: -60px;
+    background: var(--primary);
+    z-index: -1;
+}
+
+.section-title.text-start::before {
+    width: calc(100% + 40px);
+    left: 0;
+}
+
+.section-title.text-start::after {
+    width: calc(100% + 60px);
+    left: 0;
+}
+
+
+.shadowwww  {
+
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+
+
+
+/*** Service ***/
+.service-item {
+    background: WHITE;
+    transition: .5s;
+}
+
+
+.service-itemaa {
+    background: WHITE;
+    
+}
+
+
+.service-item:hover {
+    margin-top: -10px;
+    background: var(--primary);
+}
+
+.service-item * {
+    transition: .5s;
+}
+
+.service-item:hover * {
+    color: var(--light) !important;
+}
+
+
+/*** Categories & Courses ***/
+.category img,
+.course-item img {
+    transition: .5s;
+}
+
+.category a:hover img,
+.course-item:hover img {
+    transform: scale(1.1);
+}
+
+
+/*** Team ***/
+.team-item img {
+    transition: .5s;
+}
+
+.team-item:hover img {
+    transform: scale(1.1);
+}
+
+
+/*** Testimonial ***/
+.testimonial-carousel::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+}
+
+.testimonial-carousel::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .testimonial-carousel::before,
+    .testimonial-carousel::after {
+        width: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    .testimonial-carousel::before,
+    .testimonial-carousel::after {
+        width: 300px;
+    }
+}
+
+.testimonial-carousel .owl-item .testimonial-text,
+.testimonial-carousel .owl-item.center .testimonial-text * {
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-text {
+    background: var(--primary) !important;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-text * {
+    color: #FFFFFF !important;
+}
+
+.testimonial-carousel .owl-dots {
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #CCCCCC;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+
+/*** Footer ***/
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    font-weight: normal;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+
+
+
+
+/* bar animada */
+
+.barrita {   
+background: rgb(0,29,118);
+background: linear-gradient(90deg, rgba(0,29,118,1) 0%, rgba(168,1,167,1) 35%, rgba(20,190,205,1) 100%);
+height: 3rem;
+}
+
+
+/* fin bar */
+
+
+
+.counter{
+    color: #444;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.counter .counter-value{
+    color: #fff;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 128px;
+    height: 140px;
+    width: 140px;
+    margin: 0 auto 10px;
+    border-radius: 50% 0 50% 50%;
+    border: 7px solid #FF2B08;
+    border-right-color: transparent;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.counter .counter-value:before{
+    content: '';
+    background: linear-gradient(to right bottom,#FF2B08,#FE9C04);
+    border-radius: 50%;
+    box-shadow: 0 0 10px -3px rgba(0,0,0,0.5);
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    bottom: 6px;
+    right: 6px;
+    z-index: -1;
+}
+.counter h3{
+    color: #555;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+
+
+
+
+.counter .counter-valuee{
+    color: #fff;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 128px;
+    height: 140px;
+    width: 140px;
+    margin: 0 auto 10px;
+    border-radius: 50% 0 50% 50%;
+    border: 7px solid #FF2B08;
+    border-right-color: transparent;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.counter .counter-valuee:before{
+    content: '';
+    background: linear-gradient(to right bottom,#FF2B08,#FE9C04);
+    border-radius: 50%;
+    box-shadow: 0 0 10px -3px rgba(0,0,0,0.5);
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    bottom: 6px;
+    right: 6px;
+    z-index: -1;
+}
+
+
+
+.counter.purple .counter-valuee{
+    border-color: #44128a;
+    border-right-color: transparent;
+}
+
+
+.counter.purple .counter-valuee:before{
+    background: linear-gradient(to right bottom,#44128a,#a701a7);
+}
+
+
+
+
+
+
+.counter.purple .counter-value{
+    border-color: #44128a;
+    border-right-color: transparent;
+}
+
+
+.counter.purple .counter-value:before{
+    background: linear-gradient(to right bottom,#44128a,#a701a7);
+}
+
+
+
+
+.counter.purple_b .counter-value{
+    border-color: #a701a7;
+    border-right-color: transparent;
+}
+
+
+.counter.purple_b .counter-value:before{
+    background: linear-gradient(to right bottom,#a701a7,#7642b4);
+}
+
+
+
+
+
+.counter.purple_c .counter-value{
+    border-color: #7642b4;
+    border-right-color: transparent;
+}
+
+
+.counter.purple_c .counter-value:before{
+    background: linear-gradient(to right bottom,#7642b4,#4a7ac0);
+}
+
+
+
+
+
+.counter.purple_d .counter-value{
+    border-color: #4a7ac0;
+    border-right-color: transparent;
+}
+
+
+.counter.purple_d .counter-value:before{
+    background: linear-gradient(to right bottom,#4a7ac0,#19b8cc);
+}
+
+
+
+
+
+
+
+.counter.blue .counter-value{
+    border-color: #0284F3;
+    border-right-color: transparent;
+}
+
+
+.counter.blue .counter-value:before{
+    background: linear-gradient(to right bottom,#0284F3,#1DC0E1);
+}
+
+
+.counter.pink .counter-value{
+    border-color: #435CF8;
+    border-right-color: transparent;
+}
+
+.counter.pink .counter-value:before{
+    background: linear-gradient(to right bottom,#435CF8,#FF4674);
+}
+
+
+
+@media screen and (max-width:990px){
+    .counter{ margin-bottom: 40px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url("https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;700&display=swap");  */
+
+
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+ol {
+  width: min(60rem, 90%);
+  margin-inline: auto;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  list-style: none;
+  counter-reset: stepnr;
+}
+
+li:nth-child(6n + 1) { --accent-color: #610d92 } 
+li:nth-child(6n + 2) { --accent-color: #a801a7 } 
+li:nth-child(6n + 3) { --accent-color: #556bbc }
+li:nth-child(6n + 4) { --accent-color: #18bacd }
+li:nth-child(6n + 5) { --accent-color: #7dc7a4 }
+li:nth-child(6n + 6) { --accent-color: #f078c2 }
+
+ol li {
+  counter-increment: stepnr;
+  width: 18rem;
+  --borderS: 2rem;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: calc(var(--borderS) + 2rem);
+  position: relative;
+  
+}
+ol li::before,
+ol li::after {
+  inset: 0;
+  position: absolute;
+  border-radius: 50%;
+  border: var(--borderS) solid var(--bgColor);
+  line-height: 1.1;
+}
+ol li::before {
+  content: counter(stepnr);
+  color: var(--accent-color);
+  padding-left: 12rem;
+  padding-top: 2rem;
+  font-size: 10rem;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+ol li::after {
+    content: "";
+    filter: drop-shadow(-0.25rem 0.25rem 0.0675rem rgba(0, 0, 0, 0.75)) blur(5px);
+  }
+  
+  ol li > * { width: 8rem }
+  ol li .icon { font-size: 2rem; color: var(--accent-color); text-align: center }
+  ol li .title { font-size: 1.7rem; font-weight: 500 }
+  ol li .descr { font-size: 0.9rem; font-weight: 300 }
+
+
+
+
+
+
+
+  /* del plan vacacional */
+
+
+
+
+  .homerr {
+	width: 100%;
+	height: 100vh;  /* viewport's height */
+
+	background-size: cover;     /* para que la imagen se ajuste a la pantalla */
+	background-position: center; /* centra y ajusta */
+}
+
+
+
+
+
+@media (max-width: 350px)
+{
+    .homerr {
+        background-image: url("../img_plan/Vacacional.webp");
+     	
+	    }
+}
+
+@media (min-width: 351px) and (max-width: 560px) 
+{
+    .homerr {
+        background-image: url("../img_plan/PlanVacacional2024.webp");
+     	
+	    }
+}
+
+@media (min-width: 561px)
+{
+.homerr {
+    background-image: url("../img_plan/Plan__Vacacional.webp");
+	    
+	    }
+}
+
+
+
+
+
+
+
+.coverr {
+    width: 100%;
+    height: 100vh;
+ /*    background-color: rgba(0, 0, 0, 0.05);  forma correcta */ 
+
+    align-items: center;
+    justify-content: left;
+
+    
+
+    display: flex; /* ajusta el contenido para que use todo el espacio que tenga a su disposición
+                     y se coloco donde se le dijo en las dos lineas anteriores */
+
+   
+    padding: 0px 17%;   /* arriba y abajo cero, pero izq y dere 20%  */
+    box-sizing: border-box; /* para que no agrande el padding */
+
+}
+
+   
+
+
+
+    .contentrr {
+        text-align: left;
+        ;
+    /*	background-color: grey;   */
+    
+    margin-top: -180px;
+   
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 350px)
+    {
+    .cont_semi_peq {
+             font-size:10px;
+             
+            }
+    }
+    
+    @media (min-width: 351px) and (max-width: 560px) 
+    {
+    .cont_semi_peq {
+             font-size:14px;
+             
+            }
+    }
+    
+    @media (min-width: 561px)
+    {
+    .cont_semi_peq {
+            font-size:22px;
+            
+            }
+    }
+
+
+
+
+
+
+
+
+
+    @media (max-width: 350px)
+    {
+    .infoimg {
+        width:90px;
+        height:47px;   
+            }
+    }
+    
+    @media (min-width: 351px) and (max-width: 560px) 
+    {
+    .infoimg {
+        width:180px;
+        height:94px;
+             
+            }
+    }
+    
+    @media (min-width: 561px)
+    {
+    .infoimg {
+        width:360px;
+        height:188px;
+            
+            }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 350px)
+    {
+    .cont_semi_peq_extra {
+             font-size:18px;
+             
+            }
+    }
+    
+    @media (min-width: 351px) and (max-width: 560px) 
+    {
+    .cont_semi_peq_extra {
+             font-size:26px;
+             
+            }
+    }
+    
+    @media (min-width: 561px)
+    {
+    .cont_semi_peq_extra {
+            font-size:34px;
+            
+            }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .btn-primary_alt {
+        width: 370px;
+        height: 52px;
+        background-color: #001D76;
+        color: white;
+        border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+        font-size: 20px;
+        font-weight: bold;  /* para que quedan mas gruesas */
+        padding-top: 10px;
+        cursor: pointer;
+        transition: all 1s ease;
+        border-radius: 30px;
+        }
+
+
+        .btn-primary_alt:hover {
+
+            background-color: #A801A7;
+            color: white;
+        
+        }
+
+
+
+
+        .btn-primary_alt_vw {
+          
+           
+            background-color: white;
+            color: #001D76;
+            border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+            
+            font-weight: bold;  /* para que quedan mas gruesas */
+           
+            cursor: pointer;
+            transition: all 1s ease;
+            border-radius: 30px;
+            }
+    
+    
+            .btn-primary_alt_vw:hover {
+    
+                background-color: #41BECD;
+                color: #001D76;
+            
+            }
+
+
+            @media (max-width: 350px)
+            {
+            .btn-primary_alt_vw {
+                font-size:10px;
+                width: 190px;
+                height: 22px;
+                padding-top: 4px;
+                     
+                    }
+            }
+            
+            @media (min-width: 351px) and (max-width: 560px) 
+            {
+            .btn-primary_alt_vw {
+                margin-left: -40px;
+                font-size:18px;
+                width: 320px;
+                height: 32px;
+                padding-top: 2px;
+                     
+                    }
+            }
+            
+            @media (min-width: 561px)
+            {
+            .btn-primary_alt_vw {
+                    font-size:22px;
+                    width: 410px;
+                    height: 52px;
+                    padding-top: 10px;
+                    
+                    }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* parametros responsivos texto cont_semi */
+@media (max-width: 350px)
+{
+.cont_semi {
+     	font-size:14px;
+     	
+	    }
+}
+
+@media (min-width: 351px) and (max-width: 560px) 
+{
+.cont_semi {
+     	font-size:14px;
+     	
+	    }
+}
+
+@media (min-width: 561px)
+{
+.cont_semi {
+	    font-size:24px;
+	    
+	    }
+}
+
+
+
+.extrabbb {
+    font-weight: 900;
+}
+
+
+
+
+@media (max-width: 350px)
+{
+.cont_semiyyy {
+     	font-size:10px;
+     	
+	    }
+}
+
+@media (min-width: 351px) and (max-width: 560px) 
+{
+.cont_semiyyy {
+     	font-size:14px;
+     	
+	    }
+}
+
+@media (min-width: 561px)
+{
+.cont_semiyyy {
+	    font-size:20px;
+	    
+	    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 350px)
+{
+.cont_semi_ssss {
+     	font-size:10px;
+     	
+	    }
+}
+
+@media (min-width: 351px) and (max-width: 560px) 
+{
+.cont_semi_ssss {
+     	font-size:14px;
+     	
+	    }
+}
+
+@media (min-width: 561px)
+{
+.cont_semi_ssss {
+	    font-size:24px;
+	    
+	    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* parametros responsivos texto cont_big */
+        @media (max-width: 350px)
+        {
+        .cont_big {
+                 font-size:22px;
+                 margin-top: 300px;
+                 
+                }
+        }
+        
+        @media (min-width: 351px) and (max-width: 560px) 
+        {
+        .cont_big {
+                 font-size:28px;
+                 margin-top: 400px;
+                 
+                }
+        }
+        
+        @media (min-width: 561px)
+        {
+        .cont_big {
+                font-size:52px;
+                
+                }
+        }
+
+
+
+
+
+
+                /* parametros responsivos texto  */
+                @media (max-width: 350px)
+                {
+                .cont_huge {
+                         font-size:18px;
+                         
+                        }
+                }
+                
+                @media (min-width: 351px) and (max-width: 560px) 
+                {
+                .cont_huge {
+                         font-size:24px;
+                         
+                        }
+                }
+                
+                @media (min-width: 561px)
+                {
+                .cont_huge {
+                        font-size:34px;
+                        
+                        }
+                }
+
+
+
+
+
+
+
+
+
+
+                @media (max-width: 350px)
+                {
+                .cont_cajetillas {
+                         font-size:10px;
+                         
+                        }
+                }
+                
+                @media (min-width: 351px) and (max-width: 560px) 
+                {
+                .cont_cajetillas {
+                         font-size:14px;
+                         
+                        }
+                }
+                
+                @media (min-width: 561px)
+                {
+                .cont_cajetillas {
+                        font-size:22px;
+                        
+                        }
+                }
+
+
+
+
+
+
+
+
+
+
+
+                  /* parametros responsivos imagenes */
+                  @media (max-width: 350px)
+                  {
+                  .cont_img_logo {
+                            width:140px;
+                            margin-top: -40px;
+                           
+                          }
+                  }
+                  
+                  @media (min-width: 351px) and (max-width: 560px) 
+                  {
+                  .cont_img_logo {
+                          width:200px;
+                          margin-top: -30px;
+                           
+                          }
+                  }
+                  
+                  @media (min-width: 561px)
+                  {
+                  .cont_img_logo {
+                           width:300px;
+                          
+                          }
+                  }
+
+
+
+
+
+                     /* parametros responsivos imagenes */
+                     @media (max-width: 350px)
+                     {
+                     .cont_img_logo_num {  
+                               width:140px;
+                               margin-top: -10px;
+                               
+                              
+                             }
+                     }
+                     
+                     @media (min-width: 351px) and (max-width: 560px) 
+                     {
+                     .cont_img_logo_num {
+                             width:200px;
+                             margin-top: -5px;
+                              
+                             }
+                     }
+                     
+                     @media (min-width: 561px)
+                     {
+                     .cont_img_logo_num {
+                              width:300px;
+                             
+                             }
+                     }
+
+
+
+
+
+                     @media (max-width: 350px)
+                     {
+                     .cont_img_logo_num_num {  
+                               width:100px;
+                               height: 42.5px;
+                               margin-top: -10px;
+                               
+                              
+                             }
+                     }
+                     
+                     @media (min-width: 351px) and (max-width: 560px) 
+                     {
+                     .cont_img_logo_num_num {
+                             width:200px;
+                             height: 85px;
+                             margin-top: -5px;
+                             
+                              
+                             }
+                     }
+                     
+                     @media (min-width: 561px)
+                     {
+                     .cont_img_logo_num_num {
+                              width:400px;
+                              height: 170px;
+                             
+                             }
+                     }
+
+
+
+
+
+
+
+                     @media (max-width: 350px)
+                     {
+                     .cont_img_logo_num_num_l {  
+                               width:100px;
+                               height: 24px;
+                               margin-top: -10px;
+                               
+                              
+                             }
+                     }
+                     
+                     @media (min-width: 351px) and (max-width: 560px) 
+                     {
+                     .cont_img_logo_num_num_l {
+                             width:200px;
+                             margin-top: -5px;
+                             height: 48px;
+                             
+                              
+                             }
+                     }
+                     
+                     @media (min-width: 561px)
+                     {
+                     .cont_img_logo_num_num_l {
+                              width:400px;
+                              height: 96px;
+                             
+                             }
+                     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       /* parametros responsivos boton central principal */
+                       @media (max-width: 350px)
+                       {
+                       .cont_butt_p {  
+                        width: 260px;
+                        height: 32px;
+                        font-size: 14px;
+                        padding-top: 4px;
+                                 
+                                
+                               }
+                       }
+                       
+                       @media (min-width: 351px) and (max-width: 560px) 
+                       {
+                       .cont_butt_p {
+                        width: 320px;
+                        height: 42px;
+                        font-size: 18px;
+                        padding-top: 7px;
+                              
+                                
+                               }
+                       }
+                       
+                       @media (min-width: 561px)
+                       {
+                       .cont_butt_p {
+                        width: 370px;
+                        height: 52px;
+                        font-size: 20px;
+                               
+                               }
+                       }
+
+
+
+
+                       .renglon_mora {
+                       
+                      
+                        background-color: #A801A7;
+                        color: white;
+                        border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+                        font-size: 24px;
+                        font-weight: bold;  /* para que quedan mas gruesas */
+                        
+                        }
+
+
+
+
+                                /* parametros responsivos texto cont_semi */
+@media (max-width: 350px)
+{
+.cont_small {
+     	font-size:14px;
+     	
+	    }
+}
+
+@media (min-width: 351px) and (max-width: 560px) 
+{
+.cont_small {
+     	font-size:18px;
+     	
+	    }
+}
+
+@media (min-width: 561px)
+{
+.cont_small {
+	    font-size:22px;
+	    
+	    }
+}
+
+
+
+.big_top_margen {
+
+margin-top: 60px;
+
+
+
+}
+
+.text_regulis {
+    font-size:42px;
+    
+    }
+
+
+
+
+
+
+
+
+.subete {
+
+    margin-top: -30px;
+
+}
+
+
+
+.btn-primary_alt_short_a {
+    width: 240px;
+    height: 52px;
+    background-color: #41BECD;
+    color: #001D76;
+    border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+    font-size: 20px;
+    font-weight: bold;  /* para que quedan mas gruesas */
+    padding-top: 10px;
+    cursor: pointer;
+    transition: all 1s ease;
+    border-radius: 30px;
+    }
+
+
+    .btn-primary_alt_short_a:hover {
+
+        background-color: #001D76;
+        color: white;
+    
+    }
+
+
+
+
+
+
+
+    @media (max-width: 350px)
+    {
+    .btn-primary_alt_short_aaa {  
+        width: 174px;
+        height: 24px;
+        font-size: 10px;
+        
+        margin-left: 38px;
+        
+             
+            }
+    }
+    
+    @media (min-width: 351px) and (max-width: 560px) 
+    {
+    .btn-primary_alt_short_aaa {
+     width: 210px;
+     height: 24px;
+     font-size: 13px;
+     padding-top: 3px;
+     margin-left: 38px;
+     
+           
+             
+            }
+    }
+    
+    @media (min-width: 561px)
+    {
+    .btn-primary_alt_short_aaa {
+        width:260px;
+        height: 52px;
+       font-size: 20px;
+       padding-top: 12px;
+       
+            
+            }
+    }
+
+
+
+
+
+    .btn-primary_alt_short_aaa {
+        
+       
+        background-color: #41BECD;
+        color: white;
+        border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+       
+        font-weight: bold;  /* para que quedan mas gruesas */
+       
+        
+        transition: all 1s ease;
+        border-radius: 30px;
+        }
+    
+    
+      
+
+       
+
+
+
+
+
+
+
+
+.btn-primary_alt_short_b {
+    width: 240px;
+    height: 52px;
+    background-color: #001D76;
+    color: white;
+    border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+    font-size: 20px;
+    font-weight: bold;  /* para que quedan mas gruesas */
+    padding-top: 10px;
+    cursor: pointer;
+    transition: all 1s ease;
+    border-radius: 30px;
+    }
+
+
+    .btn-primary_alt_short_b:hover {
+
+        background-color: #A801A7;
+        color: white;
+    
+    }
+
+
+
+
+    .btn-primary_alt_short_c {
+        width: 240px;
+        height: 52px;
+        background-color: #A801A7;
+        color: white;
+        border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+        font-size: 20px;
+        font-weight: bold;  /* para que quedan mas gruesas */
+        padding-top: 10px;
+        cursor: pointer;
+        transition: all 1s ease;
+        border-radius: 30px;
+        }
+    
+    
+        .btn-primary_alt_short_c:hover {
+    
+            background-color: #41BECD;
+            color: #001D76;
+        
+        }
+
+
+
+
+
+
+
+
+        @media (max-width: 350px)
+        {
+        .btn-primary_alt_short_caaa {  
+            width: 174px;
+            height: 26px;
+            font-size: 10px;
+            margin-left: 52px;
+             
+                 
+                }
+        }
+        
+        @media (min-width: 351px) and (max-width: 560px) 
+        {
+        .btn-primary_alt_short_caaa {
+         width: 200px;
+         height: 26px;
+         font-size: 14px;
+         padding-top: 2px;
+         margin-left: 52px;
+               
+                 
+                }
+        }
+        
+        @media (min-width: 561px)
+        {
+        .btn-primary_alt_short_caaa {
+            width:260px;
+            height: 52px;
+           font-size: 20px;
+           padding-top: 12px;
+           
+                
+                }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .btn-primary_alt_short_caaa {
+
+            background-color: #A801A7;
+            color: white;
+            border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+           
+            font-weight: bold;  /* para que quedan mas gruesas */
+           
+          
+            transition: all 1s ease;
+            border-radius: 30px;
+            }
+
+
+          
+
+
+
+
+
+
+
+        .btn-primary_alt_short_ccc {
+            width: 240px;
+            height: 52px;
+            background-color: #A801A7;
+            color: white;
+            border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+            font-size: 20px;
+            font-weight: bold;  /* para que quedan mas gruesas */
+
+            cursor: pointer;
+            transition: all 1s ease;
+            border-radius: 30px;
+            }
+        
+        
+            .btn-primary_alt_short_ccc:hover {
+        
+                background-color: #001D76;
+                color: white;
+            
+            }
+
+
+
+
+
+
+
+
+
+        
+        .btn-primary_alt_short_wwhite {
+            width: 340px;
+            height: 52px;
+            background-color: #ffffff;
+            color: #001D76;
+            border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+            font-size: 20px;
+            font-weight: bold;  /* para que quedan mas gruesas */
+            padding-top: 10px;
+            cursor: pointer;
+            transition: all 1s ease;
+            border-radius: 30px;
+
+            }
+        
+        
+            .btn-primary_alt_short_wwhite:hover {
+        
+                background-color: #41BECD;
+                color: #001D76;
+            
+            }
+
+
+
+
+
+
+
+
+            @media (max-width: 350px)
+            {
+            .btn-primary_alt_short_wwhite_a_mora {     /* no los estoy variando */
+                width: 210px;
+                height: 22px;
+                font-size: 10px;
+                padding-top: 4px;
+                 
+                     
+                    }
+
+
+                    .btn-primary_alt_short_wwhite_a_mora_bb {     /* no los estoy variando */
+                        width: 210px;
+                        height: 22px;
+                        font-size: 10px;
+                        padding-top: 4px;
+                         
+                             
+                            }
+
+
+
+            }
+            
+            @media (min-width: 351px) and (max-width: 560px) 
+            {
+            .btn-primary_alt_short_wwhite_a_mora {
+                width: 240px;
+                height: 32px;
+                font-size: 14px;
+                padding-top: 6px;
+          
+                   
+                     
+                    }
+
+
+                    .btn-primary_alt_short_wwhite_a_mora_bb {
+                        width: 240px;
+                        height: 32px;
+                        font-size: 14px;
+                        padding-top: 6px;
+                  
+                           
+                             
+                            }
+
+
+            }
+            
+            @media (min-width: 561px)
+            {
+            .btn-primary_alt_short_wwhite_a_mora {
+                width: 340px;
+                height: 52px;
+                font-size: 20px;
+                padding-top: 12px;
+               
+                    
+                    }
+
+
+                    .btn-primary_alt_short_wwhite_a_mora_bb {
+                        width: 340px;
+                        height: 52px;
+                        font-size: 20px;
+                        padding-top: 12px;
+                       
+                            
+                            }
+
+
+            }
+
+
+
+
+
+
+ 
+            .btn-primary_alt_short_wwhite_a_mora {
+                
+                
+                background-color: #A801A7;
+                color: white;
+                border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+                
+                font-weight: bold;  /* para que quedan mas gruesas */
+                
+                cursor: pointer;
+                transition: all 1s ease;
+                border-radius: 30px;
+    
+                }
+            
+            
+                .btn-primary_alt_short_wwhite_a_mora:hover {
+            
+                    background-color: #41BECD;
+                    color: #001D76;
+                
+                }
+
+
+
+
+
+
+                .btn-primary_alt_short_wwhite_a_mora_bb {
+                
+                
+                    background-color: #A801A7;
+                    color: white;
+                    border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+                    
+                    font-weight: bold;  /* para que quedan mas gruesas */
+                    
+                    cursor: pointer;
+                    transition: all 1s ease;
+                    border-radius: 30px;
+        
+                    }
+                
+                
+                    .btn-primary_alt_short_wwhite_a_mora_bb:hover {
+                
+                        background-color: #001D76;
+                        color: white;
+                    
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            .btn-primary_alt_short_wwhite_short {
+               
+                width: 140px;
+                height: 28px;
+                background-color: #ffffff;
+                color: #001D76;
+                border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+                font-size: 20px;
+                font-weight: bold;  /* para que quedan mas gruesas */
+                
+                cursor: pointer;
+                transition: all 1s ease;
+                border-radius: 30px;
+    
+                }
+            
+            
+                .btn-primary_alt_short_wwhite_short:hover {
+            
+                    background-color: #41BECD;
+                    color: #001D76;
+                
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .separador_morado {
+            width: 100%;
+            height: 8px;
+            background-color: #A801A7;
+           
+            border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+           
+            border-radius: 30px;
+            }
+
+
+
+
+            .btn-primary_alt_white {
+                width: 540px;
+                height: 62px;
+                background-color :white;
+                color: #001D76;
+                border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+                font-size: 20px;
+                font-weight: bold;  /* para que quedan mas gruesas */
+                padding-top: 16px;
+                
+                border-radius: 30px;
+                }
+
+
+
+
+                
+                       /* parametros responsivos boton central principal */
+                       @media (max-width: 350px)
+                       {
+                       .cont_white_b {  
+                        width: 340px;
+                        height: 32px;
+                        font-size: 14px;
+                        padding-top: 8px;
+                                 
+                                
+                               }
+                       }
+                       
+                       @media (min-width: 351px) and (max-width: 560px) 
+                       {
+                       .cont_white_b {
+                        width: 440px;
+                        height: 48px;
+                        font-size: 18px;
+                        padding-top: 12px;
+                              
+                                
+                               }
+                       }
+                       
+                       @media (min-width: 561px)
+                       {
+                       .cont_white_b {
+                        width: 540px;
+                        height: 62px;
+                        font-size: 20px;
+                               
+                               }
+                       }
+
+
+         
+
+
+
+                       
+            .btn-primary_alt_purple {
+                width: 540px;
+                height: 62px;
+                background-color :#A801A7;
+                color: white;
+                border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+                font-size: 20px;
+                font-weight: bold;  /* para que quedan mas gruesas */
+                padding-top: 16px;
+                
+                border-radius: 30px;
+                }
+
+
+
+
+                
+                       /* parametros responsivos boton central principal */
+                       @media (max-width: 350px)
+                       {
+                       .cont_purple_b {  
+                        width: 340px;
+                        height: 32px;
+                        font-size: 14px;
+                        padding-top: 8px;
+                                 
+                                
+                               }
+                       }
+                       
+                       @media (min-width: 351px) and (max-width: 560px) 
+                       {
+                       .cont_purple_b {
+                        width: 440px;
+                        height: 48px;
+                        font-size: 18px;
+                        padding-top: 12px;
+                              
+                                
+                               }
+                       }
+                       
+                       @media (min-width: 561px)
+                       {
+                       .cont_purple_b {
+                        width: 540px;
+                        height: 62px;
+                        font-size: 20px;
+                               
+                               }
+                       }
+
+
+
+
+
+
+
+
+
+
+
+                       @media (max-width: 350px)
+                       {
+                       .textoimg {
+                                 width:163px;
+                                 height: 22.5px; 
+                                
+                               }
+                       }
+                       
+                       @media (min-width: 351px) and (max-width: 560px) 
+                       {
+                       .textoimg {
+                               width:326px;
+                               height: 45px;  
+                                
+                               }
+                       }
+                       
+                       @media (min-width: 561px)
+                       {
+                       .textoimg {
+                                width:652px;
+                                height: 90px;   
+                               
+                               }
+                       }
