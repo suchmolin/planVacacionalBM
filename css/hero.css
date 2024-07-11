@@ -1,0 +1,1119 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#app {
+  
+  font-size: 100px;
+
+}
+.hero{
+  position: relative;
+  height: 730px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .heroNav{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 0 0px 0 0px;
+    box-sizing: border-box;
+    z-index: 50;
+    gap:15px;
+
+
+      
+      img{
+        
+        width: 130px;
+      }
+      .subMenu{
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        ul{
+          display: flex;
+          align-items: center;
+          gap:40px;
+          list-style: none;
+
+          li{
+            a{
+              color: #001d76;
+              text-decoration: none;
+              background-color: transparent;
+            }
+          
+          }
+        }
+        a{
+          color: #001d76;
+          text-decoration: none;
+          padding: 0px 0px;
+          border-radius: 0px;
+          background-color: transparent;
+        }
+      }
+    }
+  
+
+  .heroLeft{
+    position: relative;
+    background-image: url('/img_plan/math-bg-20-lite.webp');
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 30;
+    box-sizing: border-box;
+    
+    
+    
+    
+
+    .tituloHero{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      padding: 70px 0 40px 8%;
+      z-index: 20;
+      
+
+
+      h1{
+        font-size: 33px;
+        line-height: 15px;
+        font-weight: bold;
+        color: #a801a7;
+        margin: 0;
+        margin-bottom: 20px;
+      }
+      .GSHero{
+        margin-bottom: 5px;
+        width: 230px;
+      }
+      .itemsHero{
+        margin-left: -10px;
+        width: 220px;
+      }
+
+
+      h2{
+        font-size: 19px;
+        line-height: 35px;
+        color: #001d76;
+        font-weight: bold;
+      }
+      p{
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 15px;
+        color: #001d76;
+        margin-bottom: 25px;
+      }
+      a{
+        text-align: center;
+        width: 250px;
+        font-size: 15px;
+        color: white;
+        background-color: #a801a7;
+        text-decoration: none;
+        padding: 15px 13px;
+        border-radius: 50px;
+        font-weight: bold;
+
+      }
+    }
+
+    .ninoHeroMob{
+      display:block;
+      width: 60%;
+      height: auto;
+      position: absolute;
+      bottom: 0;
+      left: 30%;
+      z-index: 10;
+    }
+
+    .ninoHero{
+      display: none;
+      width: 40%;
+      height: auto;
+      position: absolute;
+      bottom: 0;
+      right: 50px;
+      
+    }
+  }
+  
+  .heroRight{
+    background-color: #001d76;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 30px 50px;
+    z-index: 20;
+    box-sizing: border-box;
+    margin-left: -1px;
+
+    
+
+    h3{
+      font-size: 20px;
+      color: white;
+      line-height: 10px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .form{
+      padding: 10px 10px 10px 10px;
+      display: flex;
+      gap: 20px;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;      
+      box-sizing: border-box;
+
+      input{
+        width: 35%;
+        height: 40px;
+        border: 2px solid #3aaec4;
+        border-radius: 25px;
+        padding: 0 10px;
+        padding-left: 25px;
+        box-shadow: 0;
+        outline: none;
+        background-color: #001d76;
+        color: white; 
+        font-size: 17px;
+      }
+      input::placeholder{
+        color:rgba(255, 255, 255, 0.721);
+        font-size: 17px;
+      }
+      button{
+        margin-top: 0px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        font-weight: bold;
+        width: 240px;
+        color: #001d76;
+        text-decoration: none;
+        padding: 15px 10px;
+        border-radius: 30px;
+        background-color: white;
+      }
+    }
+    
+  }
+}
+
+
+/***************SM**********************************/
+@media (min-width: 640px) {
+  .hero{
+    position: relative;
+    height: 730px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+    .heroNav{
+      position: absolute;
+      height: 100px;
+      width: 100%;
+      display: flex; 
+      flex-direction: row; 
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 110px 0 30px;
+      box-sizing: border-box;
+      z-index: 50;
+  
+  
+        
+        img{
+          
+          width: 130px;
+        }
+        .subMenu{
+          font-size: 17px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+  
+          ul{
+            display: flex;
+            align-items: center;
+            gap:10px;
+            list-style: none;
+  
+            li{
+              a{
+                color: #001d76;
+                text-decoration: none;
+                background-color: transparent;
+              }
+            
+            }
+          }
+          a{
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 20px;
+            background-color: #001d76;
+          }
+        }
+      }
+    
+  
+    .heroLeft{
+      position: relative;
+      background-image: url('/img_plan/rectangle.png');
+      background-size: 100% 100%;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      z-index: 30;
+      box-sizing: border-box;
+      
+      
+      
+      
+  
+      .tituloHero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin-top: 40px;
+        padding: 70px 0 40px 8%;
+        z-index: 50;
+        
+        
+  
+  
+        h1{
+          font-size: 33px;
+          line-height: 15px;
+          font-weight: bold;
+          color: #a801a7;
+          margin: 0;
+          margin-bottom: 20px;
+        }
+        .GSHero{
+          margin-bottom: 5px;
+          width: 230px;
+        }
+        .itemsHero{
+          margin-left: -10px;
+          width: 220px;
+        }
+  
+  
+        h2{
+          font-size: 19px;
+          line-height: 35px;
+          color: #001d76;
+          font-weight: bold;
+        }
+        p{
+          font-size: 19px;
+          font-weight: 400;
+          line-height: 15px;
+          color: #001d76;
+          margin-bottom: 25px;
+        }
+        a{
+          text-align: center;
+          width: 250px;
+          font-size: 15px;
+          color: white;
+          background-color: #a801a7;
+          text-decoration: none;
+          padding: 15px 13px;
+          border-radius: 50px;
+          font-weight: bold;
+  
+        }
+      }
+ 
+      .ninoHeroMob{
+        display:none;
+   
+      }
+      .ninoHero{
+        display: block;
+        width: 40%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        right: 50px;
+        z-index: 10;
+      }
+    }
+    
+    .heroRight{
+      background-color: #001d76;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      padding: 30px 50px;
+      z-index: 20;
+      box-sizing: border-box;
+      margin-left: -1px;
+  
+      
+  
+      h3{
+        font-size: 20px;
+        color: white;
+        line-height: 10px;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+  
+      .form{
+        padding: 10px 10px 10px 10px;
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;      
+        box-sizing: border-box;
+  
+        input{
+          width: 35%;
+          height: 40px;
+          border: 2px solid #3aaec4;
+          border-radius: 25px;
+          padding: 0 10px;
+          padding-left: 25px;
+          box-shadow: 0;
+          outline: none;
+          background-color: #001d76;
+          color: white; 
+          font-size: 17px;
+        }
+        input::placeholder{
+          color:rgba(255, 255, 255, 0.721);
+          font-size: 17px;
+        }
+        button{
+          margin-top: 0px;
+          border: none;
+          outline: none;
+          font-size: 20px;
+          font-weight: bold;
+          width: 240px;
+          color: #001d76;
+          text-decoration: none;
+          padding: 15px 10px;
+          border-radius: 30px;
+          background-color: white;
+        }
+      }
+      
+    }
+  }
+  
+  
+  
+}
+/***************MD**********************************/
+
+@media (min-width: 768px) { 
+  .hero{
+    position: relative;
+    height: 730px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+    .heroNav{
+      position: absolute;
+      height: 100px;
+      width: 100%;
+      display: flex; 
+      flex-direction: row; 
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 180px;
+      box-sizing: border-box;
+      z-index: 50;
+  
+  
+        
+        img{
+          
+          width: 130px;
+        }
+        .subMenu{
+          font-size: 17px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+  
+          ul{
+            display: flex;
+            align-items: center;
+            gap:10px;
+            list-style: none;
+  
+            li{
+              a{
+                color: #001d76;
+                text-decoration: none;
+                background-color: transparent;
+              }
+            
+            }
+          }
+          a{
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 20px;
+            background-color: #001d76;
+          }
+        }
+      }
+    
+  
+    .heroLeft{
+      position: relative;
+      background-image: url('/img_plan/rectangle.png');
+      background-size: 100% 100%;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      z-index: 30;
+      box-sizing: border-box;
+      
+      
+      
+      
+  
+      .tituloHero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+        padding: 70px 0 40px 14%;
+        
+        
+  
+  
+        h1{
+          font-size: 33px;
+          line-height: 15px;
+          font-weight: bold;
+          color: #a801a7;
+          margin: 0;
+          margin-bottom: 20px;
+        }
+        .GSHero{
+          margin-bottom: 5px;
+          width: 230px;
+        }
+        .itemsHero{
+          margin-left: -10px;
+          width: 220px;
+        }
+  
+  
+        h2{
+          font-size: 21px;
+          line-height: 35px;
+          color: #001d76;
+          font-weight: bold;
+        }
+        p{
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 15px;
+          color: #001d76;
+          margin-bottom: 25px;
+        }
+        a{
+          text-align: center;
+          width: 300px;
+          font-size: 18px;
+          color: white;
+          background-color: #a801a7;
+          text-decoration: none;
+          padding: 18px 20px;
+          border-radius: 50px;
+          font-weight: bold;
+  
+        }
+      }
+  
+      .ninoHero{
+        width: 35%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        right: 50px;
+        
+      }
+    }
+    
+    .heroRight{
+      background-color: #001d76;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      padding: 30px 50px;
+      z-index: 20;
+      box-sizing: border-box;
+      margin-left: -1px;
+  
+      
+  
+      h3{
+        font-size: 20px;
+        color: white;
+        line-height: 10px;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+  
+      .form{
+        padding: 10px 10px 10px 10px;
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;      
+        box-sizing: border-box;
+  
+        input{
+          width: 35%;
+          height: 40px;
+          border: 2px solid #3aaec4;
+          border-radius: 25px;
+          padding: 0 10px;
+          padding-left: 25px;
+          box-shadow: 0;
+          outline: none;
+          background-color: #001d76;
+          color: white; 
+          font-size: 17px;
+        }
+        input::placeholder{
+          color:rgba(255, 255, 255, 0.721);
+          font-size: 17px;
+        }
+        button{
+          margin-top: 0px;
+          border: none;
+          outline: none;
+          font-size: 20px;
+          font-weight: bold;
+          width: 160px;
+          color: #001d76;
+          text-decoration: none;
+          padding: 15px 10px;
+          border-radius: 30px;
+          background-color: white;
+        }
+      }
+      
+    }
+  }
+  
+}
+
+
+/***************LG**********************************/
+@media (min-width: 1024px) {  
+  .hero{
+    position: relative;
+    height: 730px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #001d76;
+  
+  
+    .heroNav{
+      position: absolute;
+      height: 180px;
+      width: 100%;
+      display: flex; 
+      flex-direction: row; 
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 100px;
+      box-sizing: border-box;
+      z-index: 50;
+  
+  
+        
+        img{
+          margin-left: 80px;
+          width: 130px;
+        }
+        .subMenu{
+          font-size: 17px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+  
+          ul{
+            display: flex;
+            align-items: center;
+            gap:10px;
+            list-style: none;
+  
+            li{
+              a{
+                color: white;
+                text-decoration: none;
+                background-color: transparent;
+              }
+            
+            }
+          }
+          a{
+            color: #001d76;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 20px;
+            background-color: white;
+          }
+        }
+      }
+    
+  
+    .heroLeft{
+      position: relative;
+      background-image: url('/img_plan/rectangle.png');
+      background-size: boder-box;
+      background-position: center;
+      width: 65%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      z-index: 30;
+      
+      
+      
+  
+      .tituloHero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 6%;
+        
+        margin-top: 40px;
+        
+  
+  
+        h1{
+          font-size: 40px;
+          line-height: 15px;
+          font-weight: bold;
+          color: #a801a7;
+          margin: 0;
+          margin-bottom: 20px;
+        }
+        .GSHero{
+          margin-bottom: 5px;
+          width: 330px;
+        }
+        .itemsHero{
+          margin-left: -10px;
+          width: 320px;
+        }
+  
+  
+        h2{
+          font-size: 21px;
+          line-height: 35px;
+          color: #001d76;
+          font-weight: bold;
+        }
+        p{
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 15px;
+          color: #001d76;
+          margin-bottom: 25px;
+        }
+        a{
+          text-align: center;
+          width: 300px;
+          font-size: 18px;
+          color: white;
+          background-color: #a801a7;
+          text-decoration: none;
+          padding: 18px 20px;
+          border-radius: 50px;
+          font-weight: bold;
+  
+        }
+      }
+  
+      
+  
+      .ninoHero{
+        width: 50%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        
+      }
+    }
+    
+    .heroRight{
+      background-color: transparent;
+      width: 41%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      padding: 0 0 0 3%;
+      margin-left: -1px;
+      z-index: 20;
+  
+      h3{
+        text-align: left;
+        font-size: 20px;
+        color: white;
+        line-height: 10px;
+        margin-bottom: 15px;
+      }
+  
+      .form{
+        padding: 10px 100px 100px 10px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+        
+        
+        box-sizing: border-box;
+  
+        input{
+          width: 100%;
+          height: 40px;
+          border: 2px solid #3aaec4;
+          border-radius: 25px;
+          padding: 5px 15px;
+          padding-left: 25px;
+          box-shadow: 0;
+          outline: none;
+          background-color: #001d76;
+          color: white; 
+          font-size: 17px;
+        }
+        input::placeholder{
+          color:rgba(255, 255, 255, 0.721);
+          font-size: 17px;
+        }
+        button{
+          margin-top: 20px;
+          border: none;
+          outline: none;
+          font-size: 20px;
+          font-weight: bold;
+          width: 160px;
+          color: #001d76;
+          text-decoration: none;
+          padding: 15px 10px;
+          border-radius: 30px;
+          background-color: white;
+        }
+      }
+      
+    }
+  }
+  
+  
+} 
+
+/***************XL**********************************/
+@media (min-width: 1330px) {
+  
+  .hero{
+    position: relative;
+    height: 730px;
+    width: 100%;
+    display: flex;
+    background-color: #001d76;
+  
+    .heroNav{
+      position: absolute;
+      height: 180px;
+      width: 100%;
+      display: flex; 
+      flex-direction: row; 
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 100px;
+      box-sizing: border-box;
+      z-index: 50;
+  
+  
+        
+        img{
+          margin-left: 80px;
+          width: 130px;
+        }
+        .subMenu{
+          font-size: 17px;
+          display: flex;
+          align-items: center;
+          gap: 100px;
+  
+          ul{
+            display: flex;
+            align-items: center;
+            gap:30px;
+            list-style: none;
+  
+            li{
+              a{
+                color: white;
+                text-decoration: none;
+                background-color: transparent;
+              }
+            
+            }
+          }
+          a{
+            color: #001d76;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 20px;
+            background-color: white;
+          }
+        }
+      }
+    
+  
+    .heroLeft{
+      position: relative;
+      background-image: url('/img_plan/rectangle.png');
+      background-size: border-box;
+      background-position: center;
+
+      width: 65%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      z-index: 30;
+      
+      
+      
+      
+  
+      .tituloHero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 8%;
+        
+        margin-top: 40px;
+        
+  
+  
+        h1{
+          font-size: 40px;
+          line-height: 15px;
+          font-weight: bold;
+          color: #a801a7;
+          margin: 0;
+          margin-bottom: 20px;
+        }
+        .GSHero{
+          margin-bottom: 5px;
+        }
+        .itemsHero{
+          margin-left: -10px;
+          width: 420px;
+        }
+  
+  
+        h2{
+          font-size: 25px;
+          line-height: 35px;
+          color: #001d76;
+          font-weight: bold;
+        }
+        p{
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 15px;
+          color: #001d76;
+          margin-bottom: 25px;
+        }
+        a{
+          text-align: center;
+          width: 340px;
+          font-size: 20px;
+          color: white;
+          background-color: #a801a7;
+          text-decoration: none;
+          padding: 18px 20px;
+          border-radius: 50px;
+          font-weight: bold;
+  
+        }
+      }
+  
+      
+  
+      .ninoHero{
+        width: 50%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        
+      }
+    }
+    
+    .heroRight{
+      background-color: transparent;
+      width: 36%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      padding-left: 3%;
+      margin-left: -1px;
+      z-index: 20;
+  
+      h3{
+        font-size: 20px;
+        color: white;
+        line-height: 10px;
+        margin-bottom: 15px;
+      }
+  
+      .form{
+        padding: 10px 170px 100px 10px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+        
+        
+        box-sizing: border-box;
+  
+        input{
+          width: 100%;
+          height: 40px;
+          border: 2px solid #3aaec4;
+          border-radius: 25px;
+          padding: 5px 15px;
+          padding-left: 25px;
+          box-shadow: 0;
+          outline: none;
+          background-color: #001d76;
+          color: white; 
+          font-size: 17px;
+        }
+        input::placeholder{
+          color:rgba(255, 255, 255, 0.721);
+          font-size: 17px;
+        }
+        button{
+          margin-top: 20px;
+          border: none;
+          outline: none;
+          font-size: 20px;
+          font-weight: bold;
+          width: 160px;
+          color: #001d76;
+          text-decoration: none;
+          padding: 15px 10px;
+          border-radius: 30px;
+          background-color: white;
+        }
+      }
+      
+    }
+  }
+  
+    
+ }
+
+
+
+
+   
+ .t_elight {
+  font-family: "Inter", sans-serif; 
+  font-weight: 400;
+  
+}
+
+
+
+.t_regular {
+font-family: "Inter", sans-serif; 
+font-weight: 600;
+
+}
+
+.t_medium {
+  font-family: "Inter", sans-serif; 
+  font-weight: 500;
+  
+}
+
+
+.t_bold {
+  font-family: "Inter", sans-serif; 
+  font-weight: 750;
+  
+}
+
+
+.t_ebold {
+  font-family: "Inter", sans-serif; 
+  font-weight: 900;
+  
+}
+
+
+ 
+   
