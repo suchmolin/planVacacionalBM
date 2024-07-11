@@ -89,3 +89,4 @@ window.dataLayer = window.dataLayer || [];
 
 
     
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">

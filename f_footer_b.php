@@ -13,14 +13,18 @@
             <div class="row g-5">
 
 
-                <div class="col-lg-4 col-md-4 text_color_cc">
-                    <h4 class="azul_logo_text mb-3 t_ebold">Planes</h4>
+            <div class="col-lg-4 col-md-4">
+                    <h4 class="azul_logo_text mb-2 t_ebold"></h4>
+                  
 
 
-                    <a class="btn btn-link t_bold" href="#generacion"><span class="azul_logo_text">Generación STEAM</span></a>
-                    <a class="btn btn-link t_bold" href="#genios"><span class="azul_logo_text">Genios Matemáticos</span></a>
-                    <a class="btn btn-link t_bold" href="#grandes"><span class="azul_logo_text">Grandes Financieros</span></a>
-                    
+<a href="#homerr" class="navbar-brand d-flex align-items-left px-2 ">
+
+<img loading="lazy" src="img_logos/logo.webp" class="img-fluid" alt="Boostermath" width="160" height="51">
+
+</a>
+
+                  
 
                 </div>
 
@@ -57,12 +61,12 @@
                      
                     </div>
 
-
+<!-- 
 <a href="#homerr" class="navbar-brand d-flex align-items-left px-2 ">
 
 <img loading="lazy" src="img_logos/logo.webp" class="img-fluid" alt="Boostermath" width="160" height="51">
 
-</a>
+</a>  -->
 
                   
 
@@ -126,6 +130,6 @@
 
     <script src="00_sweetalerts/sweetalert2.all.min.js"></script>
 
-
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 </html>

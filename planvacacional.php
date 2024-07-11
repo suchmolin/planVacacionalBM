@@ -313,7 +313,7 @@ $la_hora = date("h:i:sa");  */
 
 
 
-    <section class="img-fluid back_azul_mora_ll" style="background-image:url('img_plan/math-bg-20.webp'); margin-bottom: 50px;"  >     
+<section class="img-fluid back_azul_mora_ll" style="background-image:url('img_plan/math-bg-20.webp'); margin-bottom: 50px;"  >     
 
 
 
