@@ -1,14 +1,9 @@
 <?php 
 
-
 $dt = new DateTime("now", new DateTimeZone('America/Caracas'));
 
 $hoy_es = $dt->format('d-m-Y h:i:sa');
 
-/* 
-$hoy_es = date("d-m-Y h:i:sa");   
-
-$la_hora = date("h:i:sa");  */
 
 ?>
 
@@ -29,49 +24,96 @@ $la_hora = date("h:i:sa");  */
 </head>
 
 
-<section id="homerr" class="homerr ">  
 
+<body class="t_regular">
 
-<?php include ("a_navbar_b.php"); ?>
-
-   
-
-<div class="coverr prueba">   <!-- para oscurecer toda la sección -->
-
-
-	<div class="contentrr" >
-		
-        <h1 class="cont_big ms-1   text_color_bb" ><b class="t_ebold"  >Plan Vacacional</b></h1>
-       
-        <span class="ms-1 "><img    class="cont_img_logo_num_num" src="img_plan/planVacacionalcopia.webp"  alt="Generación Steam Plan Vacacional"   style="margin-top:-11px;" ></span> <br> 
-        
-        <span class="ms-1 "><img   class="cont_img_logo_num_num_l" src="img_plan/innovacioncopia.webp" 
-        style="margin-top:4px;" alt="Iconos Steam de colores" ></span> <br> 
-
-        <h2 class="cont_semi_ssss  text-white" style="margin-top:10px; margin-bottom:16px;" ><b class="t_bold">¡Diversión, creatividad e innovación </b><br><span class="t_elight">en un solo lugar!</span> </h2>
-		
-		<div class="mt-2" >
-        <a href="#contacto" class="btn btn-primary_alt_vw  " ><b class="t_ebold">¡Inscribe a tu futuro genio ahora!</b></a>
-		</div>
-
-	</div>
-
-
-</div>
-
-
-</section>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Cargando...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
 
 
 
 
 
+    <div id="app">
+      <div class="hergo ">
+        <div class="heroNav">
+
+            <img src="img_plan/logo-BM.svg" alt="">
+            <div class="subMenu">
+              
+              <ul>
+                <li><a href="#ages">Etapas</a></li>
+                <li><a href="#galeria">Galería</a></li>
+              </ul>
+              
+              <a href="#foot_l">Contáctanos</a>
+            </div>
+        </div>
+        <div class="heroLeft t_regular">
+
+          <div class="tituloHero">
+            <h1>Plan Vacacional</h1>
+            <img width="330px" class="GSHero" src="img_plan/GSHero.png" alt="">
+            <img  class="itemsHero" src="img_plan/icons-steam.png" alt="">
+            <h2>¡Diversión, creatividad e innovación</h2>
+            <p>en un solo lugar!</p>
+            <a href="#">¡Inscribe a tu futuro genio ahora!</a>
+          </div>
+
+
+          <img class="ninoHero" src="img_plan/ninoHero.png" alt="">
+        </div>
+        <div id="llenar" class="heroRight">
+          <h3>¡Inscribe a tu futuro genio aquí!</h3>
+          <form id="myForm" method="POST" class="form" action="" name="contact-form">
+
+          <input type="hidden" id="Origen" name="Origen" value="Landing Booster" />  
+
+            <input type="text" placeholder="Nombre y Apellido" name="Nombre">
+            <input type="text" placeholder="Ciudad" name="Ciudad">
+            <input type="email" placeholder="Correo Electrónico" name="Correo">
+            <input type="number" placeholder="Número de contacto" name="Telf">
+
+
+            <input type="hidden" id="Fecha_de_Solicitud" name="Fecha_de_Solicitud" value="<?php echo $hoy_es; ?>" />  
+
+
+            <button class=""  type="submit" id='btn_send_me' name="submit" onclick="this.innerHTML='¡Enviando!';">Enviar</button>
+
+
+
+
+            
+          </form>
+        </div>
+      </div> 
+    </div>
+    <script type="module" src="js/google_sheet.js"></script>
 
 
 
 
 
-<section class="img-fluid back_turque_h_light">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="img-fluid back_turque_h_light  rev_rev_sube">
 
 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">             
 
@@ -156,7 +198,7 @@ $la_hora = date("h:i:sa");  */
                         <img loading="lazy" id="calendarImage_c" class="mt-1" src="img_plan/clock.webp" width="74" height="75"  alt="Icono Reloj" ><br><br>
 
 <span class="text_color_aa cont_cajetillas" ><b class="t_ebold">40 HORAS</b></span><br>
-<span class="text_color_aa cont_cajetillas t_medium" >academicas</span>
+<span class="text_color_aa cont_cajetillas t_medium" >académicas</span>
 
                         </div>
                     </div>
@@ -219,7 +261,7 @@ $la_hora = date("h:i:sa");  */
 
     <div class="text-center wow fadeInUp mb-5" data-wow-delay="0.1s">  
 
-<a href="#contacto" class="btn btn-primary_alt_short_wwhite_a_mora t_ebold" >RESERVA EL CUPO</a>
+<a href="#llenar" class="btn btn-primary_alt_short_wwhite_a_mora t_ebold" >RESERVA EL CUPO</a>
 
      </div>   
 
@@ -229,6 +271,10 @@ $la_hora = date("h:i:sa");  */
 
 
 </section>
+
+
+
+
 
 
 
@@ -298,7 +344,7 @@ $la_hora = date("h:i:sa");  */
 
     <div class="text-center wow fadeInUp mb-4" data-wow-delay="0.1s">  
 
-<a href="#contacto" class="btn btn-primary_alt_short_wwhite_a_mora_bb t_ebold" >REGÍSTRATE AQUÍ</a>
+<a href="#llenar" class="btn btn-primary_alt_short_wwhite_a_mora_bb t_ebold" >REGÍSTRATE AQUÍ</a>
 
      </div>  
 
@@ -312,33 +358,25 @@ $la_hora = date("h:i:sa");  */
 
 
 
-
-<section class="img-fluid back_azul_mora_ll" style="background-image:url('img_plan/math-bg-20.webp'); margin-bottom: 50px;"  >     
-
-
-
-
-
-
-
-
+<section class="img-fluid back_azul_mora_ll" style="background-image:url('img_plan/math-bg-20.webp'); margin-bottom: 40px;"  >     
 
 
 
 <!-- About Start -->
-<div class="container-xxl py-5 margen_positivo ">
+<div class="container-xxl py-2 margen_positivo ">
         <div class="container">
             <div id="generacion" class="row g-4">
 
 
 
-            <div class="text-center wow mb-4 fadeInUp " data-wow-delay="0.1s">             
+            <div class="text-center wow  fadeInUp " data-wow-delay="0.1s">             
 
 
 
+<span class="text_color_aa cont_semi extrabbb t_ebold"><b>Plan Vacacional</b></span><br>
 
-<span><img loading="lazy" class="mb-2 textoimg" src="img_plan/titulo-GS.webp"  alt="Generación Steam Plan Vacacional" ></span><br>
-<span class="text_color_aa cont_semi extrabbb t_ebold"><b> 6 - 14</b><span class="cont_semiyyy"><b>años</b></span></span>
+<span><img loading="lazy" class=" textoimg" src="img_plan/titulo-GS.webp"  alt="Generación Steam Plan Vacacional" ></span>
+
 
 
      </div>   
@@ -347,11 +385,11 @@ $la_hora = date("h:i:sa");  */
 
 
 
-     <div class="col-lg-6 pe-4 cent_micro wow fadeInUp" data-wow-delay="0.1s"  >
+     <div class="col-lg-7 pe-4 cent_micro wow fadeInUp" data-wow-delay="0.1s"  >
                 <div class="position-relative " >
 
-<img loading="lazy" class="img-fluid " loading="lazy" src="img_plan/microscope.webp"
-                     alt="Microscopio de laboratorio de química" style="width:100%; "  width="534" height="258" >
+<img loading="lazy" class="img-fluid " loading="lazy" src="img_plan/chico_exitoso.webp"
+                     alt="Chico exitoso" style="width:100%; "  width="534" height="258" >
 
                 </div>
     </div>
@@ -360,32 +398,23 @@ $la_hora = date("h:i:sa");  */
 
 
 
+<div  class="col-lg-5  wow ps-4"   data-wow-delay="0.3s" >
+
+
+<h4 class=" mb-4 text_color_aa cont_semi_p_new t_regular vaca_text" >Vacaciones divertidas y llenas de mucha ciencia, tecnología, ingeniería, arte y matemáticas.</h4>
+
+<h4 class="mb-4 text_color_aa cont_semi_p_new"><b class="t_ebold">Desarrolla todo el potencial de tu pequeño genio en las áreas STEAM con nuestro Plan Vacacional.<b></h4>
 
 
 
-<div  class="col-lg-6 wow ps-4"   data-wow-delay="0.3s" >
-
-
-<h3 class="mb-4 text_color_aa cont_semi_peq t_regular"><b class="t_ebold">Estimula la creatividad y lógica de tu hijo</b> con actividades divertidas y dinámicas en ciencias, tecnología, ingeniería, arte y matemáticas.</h3>
-
-<h3 class="mb-4 text_color_aa cont_semi_peq"><b class="t_ebold">Con este Plan Vacacional aprende de:</h3></p>
-
-
-<ul class="">
-<li class="text_color_aa "><h4 class="cont_semi_peq text_color_aa t_regular">Geometría y diseño</h4></li>
-<li class="text_color_aa " style="margin-top: -12px;"><h4 class="cont_semi_peq text_color_aa t_regular">Principios de estructura y estabilidad</h4></li>
-<li class="text_color_aa " style="margin-top: -12px;"><h4 class="cont_semi_peq text_color_aa t_regular">¿Qué son reacciones químicas?</h4></li>
-</ul>
 
 
 <div class="mt-2  btn_centrate  "  >
-<a href="#contacto" class="btn btn-primary_alt_short_wwhite_a_mora t_ebold" >¡APROVECHA YA!</a>
+<a href="#llenar" class="btn btn-primary_alt_short_wwhite_a_mora t_ebold" >¡APROVECHA YA!</a>
 </div>
 
 
 </div>
-
-
 
 
 
@@ -398,152 +427,53 @@ $la_hora = date("h:i:sa");  */
 
 
 
-
-
     </section>
+
+
+
+
+
+
+
+
+
 
 
 
 
  <!-- About start -->
- <div class="container-xxl py-5 mb-4">
+ <div class="container-xxl py-1 "  > <!-- style="background-color: cyan;" -->
         <div class="container">
-            <div class="row g-5">
+            <div class="row g-5"  > <!-- style="background-color: yellow;" -->
  
 
+            <div class="col-lg-1 col-4  wow fadeInUp " data-wow-delay="0.3s" style="display: flex; justify-content:right; align-items:right">  
 
-            <div class="col-lg-6 pe-4 wow fadeInUp" data-wow-delay="0.3s">
-
-            <h2 class="text_color_aa cont_huge t_regular">¿Quieres más opciones para darle <b class="t_ebold">a tu hijo unas vacaciones increíbles?</b></h2>                                     
+<img loading="lazy" class="" src="img_plan/bombillo.webp" style="margin-top: -20px;"  alt="Bombillo de ideas" width="85" height="137.5" >   
+ <!--170 * 275 -->                             
                    
-                </div>
+            </div>
+
+
+            <div class="col-lg-7 col-8 wow fadeInUp" data-wow-delay="0.3s">
+
+            <h3 class="text_color_aa cont_huge t_regular"><b class="t_ebold">Un futuro brillante para tu hijo</b></h3>
+            
+            <h4 class="text_color_aa  text_imp t_regular">Impulsa la creatividad de tu hijo con clases divertidas y prácticas.</h4> 
+                   
+            </div>
                 
   
 
-                <div class="col-lg-6 ps-5 wow fadeInUp " data-wow-delay="0.3s">
-                    
-<span class="text_color_aa cont_semi_peq_extra mt-4 t_regular">Las ponemos a tu alcance</span>&nbsp;&nbsp;&nbsp;<img loading="lazy" class="mt-1" src="img_plan/arrow.webp"  alt="Flecha apuntando a la derecha" width="50" height="33" >                 
-                   
-                </div>
-
-
-
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section class="img-fluid back_turque_rosa_light" style="background-image:url('img_plan/math-bg-10.webp'); "  >     
-
-
-
-
-
-
-
-
-<!-- About Start -->
-<div class="container-xxl py-5 margen_menor mb-4 ">
-        <div class="container">
-            <div id="genios" class="row g-4">
-
-
-
-            <div class="text-center wow fadeInUp mb-4" data-wow-delay="0.1s">             
-
-
-
-
-<span><img loading="lazy" class="mb-2 textoimg" src="img_plan/titulo-GM.webp"  alt="Plan Vacacional de ábaco" ></span><br>
-
-<span class="text_color_aa cont_semi extrabbb t_ebold"><b> 6 - 11</b><span class="cont_semiyyy"><b>años</b></span></span>
-
-
-     </div>   
-           
-
-
-
-
-
-
-
-<div  class="col-lg-6 wow  pe-4"  data-wow-delay="0.3s" >
-
-
-<h3 class="mb-4 text_color_aa cont_semi_peq  t_regular"><b class="t_ebold">Desarrolla la habilidad</b> aritmética de tu hijo a través del ábaco, en un gimnasio mental con el que logra solucionar operaciones matemáticas más rápido que una calculadora.</h3>
-
-<h3 class="mb-4 text_color_aa cont_semi_peq"><b class="t_ebold">Nuestro programa le ayuda a:</b></h3>
-
-<ul>
-<li class="text_color_aa "><h4 class="cont_semi_peq text_color_aa t_regular">Mejorar la concentración, memoria y atención</h4></li>
-<li class="text_color_aa " style="margin-top: -12px;"><h4 class="cont_semi_peq text_color_aa t_regular">Estimular su agilidad mental y cálculo rápido</h4></li>
-
-
-
-</ul>
-
-
-<div class="mt-2   btn_centrate "  >
-<a href="#contacto" class="btn btn-primary_alt_short_wwhite_a_mora  cont_butt_p t_ebold" >OBTÉN TU CUPO AHORA</a>
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-                <div class="col-lg-6 cent_abaco ps-4 wow fadeInUp" data-wow-delay="0.1s"  >
-                <div class="position-relative ">
-
-<img loading="lazy" class="img-fluid " loading="lazy" src="img_plan/abacus.webp"
-                     alt="Ábaco japones de cuencas de colores" style="width:100%; " width="534" height="266"  >
-
-                </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <div class="col-lg-4 col-12 wow fadeInUp ajuste_re" data-wow-delay="0.3s" >
                 
+<div class="mt-2    "  style="display: flex; justify-content:center; align-items:center" >
+<a href="#llenar" class="btn btn-p_a_s t_ebold" >¡RESERVA SU CUPO!</a>
+</div>
+                   
+            </div>
+
+
 
             </div>
         </div>
@@ -553,6 +483,51 @@ $la_hora = date("h:i:sa");  */
 
 
 
+
+
+    <section id="ages" class="sectionAges">
+        <div class="agesLeft">
+            
+            <img src="img_plan/j_2.webp" alt="">           
+            <div class="agesLeftCont">
+                <div class="subDiv">
+
+                    <h3>De 6 a 10 años</h3>
+                    <p>Le mostramos a tu pequeño que
+                        <span>aprender puede ser divertido</span>, con
+                        actividades diarias y prácticas como:</p>
+                    <ul>
+                        <div >🧮<li>Un gimnasio mental con ábaco</li></div>
+                        <div>🧪<li>Experimentos con reacciones
+                            químicas</li></div>
+                            <div>🚀<li>Educación financiera para niños</li></div>
+                    </ul>
+                    <a href="#llenar">¡INSCRÍBELO AHORA!</a>
+                </div>
+            </div>
+        </div>
+        <div class="agesRight">
+             
+            <img src="img_plan/j_1.webp" alt="">
+           
+            <div class="agesRightCont">
+                <div class="subDiv">
+
+                    <h3>De 11 a 14 años</h3>
+                    <p>Tu hijo <span>aprende de manera diferente</span>
+                        con cada actividad que realiza en
+                        nuestro Plan Vacacional.
+                        
+                        Impulsamos su creatividad, a través de:</p>
+                    <ul>
+                       <div>💰<li>Educación financiera para su futuro</li></div>
+                       <div>➗<li>Las matemáticas detrás de lo que nos rodea</li></div>
+                       <div>🔭<li>El lado divertido de las ciencias</li></div>
+                    </ul>
+                    <a href="#llenar">¡INSCRÍBELO AHORA!</a>
+                </div>
+            </div>
+        </div>
 
     </section>
 
@@ -573,342 +548,112 @@ $la_hora = date("h:i:sa");  */
 
 
 
-
-
-
-
-
-
-
-
-
-    <section  class="img-fluid back_turque_h_light" style="background-image:url('img_plan/math-bg-10.webp'); "   >
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- About Start -->
-<div class="container-xxl py-5 margen_positivo ">
+ <!-- About start -->
+ <div class="container-xxl py-3 mt-2 mb-1"  > <!-- style="background-color: cyan;" -->
         <div class="container">
-            <div id="grandes" class="row g-4">
+<div class="row g-5 text-center" style="justify-content: center; display:flex" > <!-- style="background-color: yellow;" -->
+ 
 
-
-
-            <div class="text-center wow fadeInUp mb-4" data-wow-delay="0.1s">             
-
-
-
-
-<span><img loading="lazy" class="mb-2 textoimg" src="img_plan/titulo-GF.webp"  alt="Plan Vacacional de educación financiera" ></span><br>
-
-<span class="text_color_aa cont_semi extrabbb t_ebold"><b> 6 - 17</b><span class="cont_semiyyy"><b>años</b></span></span>
-
-
-     </div>   
            
 
 
-
-
-
-
-
-
-    <div class="col-lg-6 pe-4 cent_fina wow fadeInUp" data-wow-delay="0.1s"  >
-                <div class="position-relative ">
-
-<img loading="lazy" class="img-fluid " loading="lazy" src="img_plan/money.webp"
-                     alt="Monedas mostrando ahorro financiero" style="width:100%; " width="534" height="290"  >
-
-                </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div  class="col-lg-6 wow ps-4 "  data-wow-delay="0.3s" >
-
-
-<h3 class="mb-4 text_color_aa cont_semi_peq t_regular">Le damos a tu hijo las herramientas financieras para que aprenda el valor del dinero, cómo administrarlo de manera inteligente y la importancia del ahorro.</h3>
-
-<h3 class="mb-4 text_color_aa cont_semi_peq"><b class="t_ebold">En este programa, le enseñamos:</b></h3>
-
-<ul>
-<li class="text_color_aa "><h4 class="cont_semi_peq text_color_aa t_regular">Los fundamentos de las finanzas</h4></li>
-<li class="text_color_aa " style="margin-top: -12px;"><h4 class="cont_semi_peq text_color_aa t_regular">Cómo tomar decisiones financieras inteligentes</h4></li>
-
-
-</ul>
-
-
-<div class="mt-2   btn_centrate "  >
-<a href="#contacto" class="btn btn-primary_alt_short_wwhite_a_mora  cont_butt_p  t_ebold" >INSCRÍBELO YA</a>
-</div>
-
-
-</div>
-
-
-
-
-
+            <div class="col-lg-12  wow fadeInUp" data-wow-delay="0.3s">
+           
+<h4 class="text_color_aa  t_regular"><b class="t_ebold">Dale a tu hijo unas vacaciones increíbles en Boostermath</b></h4> 
+                   
+            </div>
                 
+  
 
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-
-
-
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-    <section class=" back_turque_hhh"  >
-
-<!-- About Start -->
-<div class="container-xxl py-5  ">
-        <div class="container">
-            <div id="contacto" class="row g-4">
-
-            <div class="col-lg-6 col-12 wow fadeInUp" data-wow-delay="0.5s">
-
-
-<h4 class="mb-3 text_color_aa t_ebold">¡Inscribe a tu futuro genio aquí!</h4>
-
-
-<form id="myForm" method="post" action="" name="contact-form">
-
-
-<input type="hidden" id="Origen" name="Origen" value="Landing Booster" />  
-
-
-
-        <div class="row g-3">
-
-
-        <div class="col-md-12">
-                <div class="form-floating">
-                    <input maxlength="40" type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre" required style="border-radius: 35px; padding-left:36px;">
-
- <label  for="Nombre"> &nbsp; &nbsp; &nbsp; <b class="t_regular" style="color:#001d76;">Nombre y Apellido</b></label>
-
-                </div>
-        </div> 
-
-
-        <div class="col-12">
-                <div class="form-floating">
-                    <input maxlength="60" type="text" class="form-control" id="Ciudad" name="Ciudad" placeholder="Ciudad" required style="border-radius: 35px; padding-left:36px;">
-                    <label  for="Ciudad">&nbsp; &nbsp; &nbsp; <b class="t_regular" style="color:#001d76;">Ciudad</b></label>
-                   
-                </div>
-            </div>
-        
-
-       <div class="col-12">
-                <div class="form-floating">
-                    <input maxlength="60" type="email" class="form-control" id="Correo" name="Correo" placeholder="Email" required style="border-radius: 35px; padding-left:36px;">
-                    <label  for="Correo">&nbsp; &nbsp; &nbsp; <b class="t_regular" style="color:#001d76;">Correo Electrónico</b></label>
-                   
-                </div>
-            </div>
-
-
-            <div class="col-md-12">
-                <div class="form-floating">
-<input maxlength="40" type="number" class="form-control" id="Telf" name="Telf" placeholder="Teléfono" required style="border-radius: 35px; padding-left:36px;">
-                    <label  for="Telf">&nbsp; &nbsp; &nbsp; <b class="t_regular" style="color:#001d76;">Número de contacto</b></label>
-                </div>
-            </div>
           
 
 
-<div class="col-12">
+
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+
+
+
+<section id="galeria" style="margin-bottom: 50px;">
+
+<span style="margin-bottom: 50px;">
+
+
+<div class="carousel"
+  data-flickity='{ "imagesLoaded": true, "percentPosition": false, "wrapAround": true, "autoPlay": true}'>
+
+  <img src="img_plan/c_b.webp" alt="submerged" />
+  <img src="img_plan/c_c.webp" alt="look-out" />
+  <img src="img_plan/c_a.webp" alt="orange tree" />
+  <img src="img_plan/c_d.webp" alt="orange treedd" />
+  <img src="img_plan/c_e.webp" alt="submergeddd" />
+  <img src="img_plan/c_f.webp" alt="look-outdd" />
+</div>
+
+
+
+
+
+
+
+</span>
+
+</section>
+
+
 
 <style>
 
 
-
-.box select {
-background-color: #001d76;
-color: white;
-padding: 12px;
-cursor: pointer;
-appearance: none;   /* quita la flecha del select */
-width: 100%;
-height: 56px;
-border: none;
-font-size: 16px;
-font-weight: 600;
-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-
-outline: none;
+.carousel {
+  background: #EEE;
 }
 
-.hhhhh {
-font-size: 16px;
+.carousel img {
+  display: block;
+  height: 200px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel img {
+    height: 400px;
+  }
+}
+
+/* position dots in carousel */
+.flickity-page-dots {
+  bottom: 0px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 0px;
+  height: 0px;
+  opacity: 1;
+  background: transparent;
+  border: 0px solid white;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: transparent;
 }
 
 
 
-.box::before {
-
-position: absolute;
-top: 0;
-right: 0;
-width: 20%;
-height: 100%;
-text-align: center;
-font-size: 228px;
-line-height: 45px;
-color: rgba(255, 255, 255, 0.5);
-background-color: rgba(255, 255, 255, 0.1);
-pointer-events: none;
-}
-
-.box:hover::before {
-color: rgba(255, 255, 255, 0.6);
-background-color: rgba(255, 255, 255, 0.2);
-}
-
-.box select option {
-padding: 30px;
-}
 
 
 </style>
 
 
-
-
-<div class="form-floating" >
-<div class="box">
-
-
-<select name="Programa" id="mySelect" style="border-radius: 35px; padding-left:36px; ">
-
-<!--  <optgroup label="Cambiar a...">  IDEAL CUANDO YA AY CONTENIDO Y SE TRAE DE LA BD-->
-
-<option disabled selected></option>
-<option value="Generación STEAM" class="t_regular" style="font-size: 20px;">Generación STEAM</option>
-<option value="Genios Matemáticos" class="t_regular" style="font-size: 20px;">Genios Matemáticos</option>
-<option value="Grandes Financieros" class="t_regular" style="font-size: 20px;">Grandes Financieros</option>
-
-
-</select>
-
-
-</div>  
-
-<label for="mySelect" id="planLabel">&nbsp; &nbsp; &nbsp; <b class="t_regular" style="color:white; ">Plan Vacacional &nbsp;
-<i class="fa-solid fa-chevron-down"></i></b></label>
-
-
-</div>
-
-
-
 <script>
-// Obtén el select y el label
-var select = document.getElementById('mySelect');
-var label = document.getElementById('planLabel');
 
-// Función para ocultar el label cuando se selecciona una opción
-select.addEventListener('change', function() {
-label.style.display = 'none';
-});
+
+
+    
 </script>
-
-
-
-</div>
-
-            
-<input type="hidden" id="Fecha_de_Solicitud" name="Fecha_de_Solicitud" value="<?php echo $hoy_es; ?>" />  
-
-<!-- <input type="hidden" id="Hora_de_Solicitud" name="Hora_de_Solicitud" value="" />   -->
-
-
-      <div class="col-12">
-
-<button class="btn btn-primary_alt_short_ccc w-100 t_medium" style="border-radius: 35px; text-align: left; padding-left: 36px;" type="submit" id='btn_send_me' name="submit" onclick="this.innerHTML='¡Enviando!';">Enviar</button>
-              
-      </div>
-
-
-
-        </div>
-
-    </form>
-
-
-</div>
-
-<script src="js/google_sheet.js"></script>
-
-
-
-
-    <div class="col-lg-6 ps-5 wow fadeInUp" data-wow-delay="0.1s"   >
-                <div class="position-relative ">
-
-<img loading="lazy" class="img-fluid " loading="lazy" src="img_plan/plan_vacacional_2024.webp"
-                     alt="Mujer sosteniendo un ábaco con la mano izquierda" style="width:100%; " width="510" height="510" >
-
-                </div>
-    </div>
-
-
-
-                
-
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-
-
-
-    </section>
-
-
-
-
-
-
 
 
 

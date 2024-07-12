@@ -8,7 +8,7 @@
 
 	
     <!-- Footer Start -->
-    <div class="container-fluid text_color_cc footer pt-5  wow fadeIn" data-wow-delay="0.1s">
+    <div id="foot_l" class="container-fluid text_color_cc footer pt-5  wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-1">
             <div class="row g-5">
 

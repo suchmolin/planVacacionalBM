@@ -28,6 +28,37 @@
         <div class="owl-carousel header-carousel position-relative">
 
 
+
+        <div class="owl-carousel-item position-relative">
+                <img loading="lazy" class="img-fluid" src="img_bigs/carousel-0.webp" loading="lazy" alt="Carousel Z" width="1366" height="668">
+<div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .2);">
+
+
+                    <div class="container marg_bott_esp">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                
+                                <h2 class="display-3  text-white animated slideInDown">Plan Vacacional.</h2>
+                                <p class="fs-5 text-white mb-2 pb-2"><b>¡Diversión, creatividad e innovación en un solo lugar!</b></p>
+                                <a href="planvacacional" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Saber Más</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
             <div class="owl-carousel-item position-relative">
                 <img loading="lazy" class="img-fluid" src="img_bigs/carousel-3.webp" loading="lazy" alt="Carousel A" width="1366" height="668">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .2);">
@@ -126,22 +157,32 @@
 
 
                             <!-- Modal -->
-                            <div class="modal fade" id="exampleModal_a" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                              <div class="modal-dialog modal-fullscreen modal-dialog-centered ">
-                                <div class="modal-content " >
+                    <div class="modal fade" id="exampleModal_a" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="margin-top:-20px" >
+                        <div class="modal-dialog modal-lg modal-dialog modal-dialog-centered ">
+
+                            <div class="modal-content " >
+
+
+
+
+
+                        <a href="planvacacional" >
+                            
                                   
-                                  <div class="modal-body"  >
+                            <div class="modal-body"   >  <!-- modal.webp  -->
                               
+                         <img loading="lazy" class="img-fluid" src="img_plan/modal.webp" alt="Plan Vacacional" style="object-fit: cover;">   
                           
 
                             </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">X</button>
+                      
+                        </a>
+                            
 
-                            </div>
+
                           </div>
                         </div>
-                      </div>
+                    </div>
 
                       <!-- cierre Modal -->
 
@@ -149,14 +190,14 @@
 
 
 <script>
-/* retrasa la ejecucion para dar chance de cargar jquery 
+/* retrasa la ejecucion para dar chance de cargar jquery */
 
 setTimeout(function() { 
 
     $(document).ready(function(){
         // Asegúrate de que el ID del modal coincida con el que tienes en tu HTML
         $('#exampleModal_a').modal('show');
-    }); }, 500);  */
+    }); }, 1500);  
 </script>
 
 
