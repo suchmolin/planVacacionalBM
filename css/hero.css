@@ -2,12 +2,11 @@
   margin: 0;
   padding: 0;
 }
-#app {
-  
-  font-size: 100px;
 
-}
-.hero{
+
+
+
+.hergo{
   position: relative;
   height: 650px;
   width: 100%;
@@ -51,6 +50,12 @@
               text-decoration: none;
               background-color: transparent;
             }
+
+            a:hover{
+              color: #14becd;
+              text-decoration: none;
+              background-color: transparent;
+            }
           
           }
         }
@@ -67,7 +72,7 @@
 
   .heroLeft{
     position: relative;
-    background-image: url('/img_plan/rectangle.png');
+    background-image: url('../img_plan/rectangle.png');
     background-size: 100% 100%;
     background-position: center;
     width: 100%;
@@ -129,7 +134,7 @@
       a{
         text-align: center;
         width: 200px;
-        font-size: 12px;
+        font-size: 11px;
         color: white;
         background-color: #a801a7;
         text-decoration: none;
@@ -154,7 +159,7 @@
   }
   
   .heroRight{
-    background-image: url('/img_plan/math-bg-20.webp');
+    background-image: url('../img_plan/math-bg-20.webp');
     background-size: cover;
     background-color: #001d76;
     width: 100%;
@@ -228,7 +233,7 @@
 
 /***************SM**********************************/
 @media (min-width: 640px) {
-  .hero{
+  .hergo{
     position: relative;
     height: 730px;
     width: 100%;
@@ -258,12 +263,14 @@
           display: flex;
           align-items: center;
           gap: 10px;
+       
   
           ul{
             display: flex;
             align-items: center;
             gap:10px;
             list-style: none;
+            margin-bottom: 0;
   
             li{
               a{
@@ -287,7 +294,7 @@
   
     .heroLeft{
       position: relative;
-      background-image: url('/img_plan/rectangle.png');
+      background-image: url('../img_plan/rectangle.png');
       background-size: 100% 100%;
       background-position: center;
       width: 100%;
@@ -348,7 +355,7 @@
         a{
           text-align: center;
           width: 250px;
-          font-size: 15px;
+          font-size: 14px;
           color: white;
           background-color: #a801a7;
           text-decoration: none;
@@ -450,7 +457,7 @@
 /***************MD**********************************/
 
 @media (min-width: 768px) { 
-  .hero{
+  .hergo{
     position: relative;
     height: 730px;
     width: 100%;
@@ -509,7 +516,7 @@
   
     .heroLeft{
       position: relative;
-      background-image: url('/img_plan/rectangle.png');
+      background-image: url('../img_plan/rectangle.png');
       background-size: 100% 100%;
       background-position: center;
       width: 100%;
@@ -568,7 +575,7 @@
         a{
           text-align: center;
           width: 300px;
-          font-size: 18px;
+          font-size: 16px;
           color: white;
           background-color: #a801a7;
           text-decoration: none;
@@ -622,7 +629,7 @@
         box-sizing: border-box;
   
         input{
-          width: 35%;
+          width: 40%;
           height: 40px;
           border: 2px solid #3aaec4;
           border-radius: 25px;
@@ -661,7 +668,7 @@
 
 /***************LG**********************************/
 @media (min-width: 1024px) {  
-  .hero{
+  .hergo{
     position: relative;
     height: 730px;
     width: 100%;
@@ -722,7 +729,7 @@
   
     .heroLeft{
       position: relative;
-      background-image: url('/img_plan/rectangle.png');
+      background-image: url('../img_plan/rectangle.png');
       background-size: boder-box;
       background-position: center;
       width: 65%;
@@ -779,7 +786,7 @@
         a{
           text-align: center;
           width: 300px;
-          font-size: 18px;
+          font-size: 16px;
           color: white;
           background-color: #a801a7;
           text-decoration: none;
@@ -872,7 +879,7 @@
 /***************XL**********************************/
 @media (min-width: 1330px) {
   
-  .hero{
+  .hergo{
     position: relative;
     height: 730px;
     width: 100%;
@@ -931,7 +938,7 @@
   
     .heroLeft{
       position: relative;
-      background-image: url('/img_plan/rectangle.png');
+      background-image: url('../img_plan/rectangle.png');
       background-size: border-box;
       background-position: center;
 
@@ -989,7 +996,7 @@
         a{
           text-align: center;
           width: 340px;
-          font-size: 20px;
+          font-size: 18px;
           color: white;
           background-color: #a801a7;
           text-decoration: none;

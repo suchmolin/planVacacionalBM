@@ -25,7 +25,7 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
 
 
 
-<body>
+<body class="t_regular">
 
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -34,6 +34,81 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
         </div>
     </div>
     <!-- Spinner End -->
+
+
+
+
+
+    <div id="app">
+      <div class="hergo ">
+        <div class="heroNav">
+
+            <img src="img_plan/logo-BM.svg" alt="">
+            <div class="subMenu">
+              
+              <ul>
+                <li><a href="">Etapas</a></li>
+                <li><a href="">Galería</a></li>
+              </ul>
+              
+              <a href="#contacto">Contáctanos</a>
+            </div>
+        </div>
+        <div class="heroLeft t_regular">
+
+          <div class="tituloHero">
+            <h1>Plan Vacacional</h1>
+            <img width="330px" class="GSHero" src="img_plan/GSHero.png" alt="">
+            <img  class="itemsHero" src="img_plan/icons-steam.png" alt="">
+            <h2>¡Diversión, creatividad e innovación</h2>
+            <p>en un solo lugar!</p>
+            <a href="#">¡Inscribe a tu futuro genio ahora!</a>
+          </div>
+
+
+          <img class="ninoHero" src="img_plan/ninoHero.png" alt="">
+        </div>
+        <div class="heroRight">
+          <h3>¡Inscribe a tu futuro genio aquí!</h3>
+          <form id="myForm" method="POST" class="form" action="" name="contact-form">
+
+          <input type="hidden" id="Origen" name="Origen" value="Landing Booster" />  
+
+            <input type="text" placeholder="Nombre y Apellido" name="Nombre">
+            <input type="text" placeholder="Ciudad" name="Ciudad">
+            <input type="email" placeholder="Correo Electrónico" name="Correo">
+            <input type="number" placeholder="Número de contacto" name="Telf">
+
+
+            <input type="hidden" id="Fecha_de_Solicitud" name="Fecha_de_Solicitud" value="<?php echo $hoy_es; ?>" />  
+
+
+            <button class=""  type="submit" id='btn_send_me' name="submit" onclick="this.innerHTML='¡Enviando!';">Enviar</button>
+
+
+
+
+            
+          </form>
+        </div>
+      </div> 
+    </div>
+    <script type="module" src="js/google_sheet.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -283,7 +358,7 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
 
 
 
-<section class="img-fluid back_azul_mora_ll" style="background-image:url('img_plan/math-bg-20.webp'); margin-bottom: 50px;"  >     
+<section class="img-fluid back_azul_mora_ll" style="background-image:url('img_plan/math-bg-20.webp'); margin-bottom: 0px;"  >     
 
 
 
@@ -367,7 +442,7 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
 
 
  <!-- About start -->
- <div class="container-xxl py-5 mb-4"  > <!-- style="background-color: cyan;" -->
+ <div class="container-xxl py-5 "  > <!-- style="background-color: cyan;" -->
         <div class="container">
             <div class="row g-5"  > <!-- style="background-color: yellow;" -->
  
@@ -404,6 +479,64 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
         </div>
     </div>
     <!-- About End -->
+
+
+
+
+
+
+    <section class="sectionAges">
+        <div class="agesLeft">
+            
+            <img src="img_plan/j_2.webp" alt="">           
+            <div class="agesLeftCont">
+                <div class="subDiv">
+
+                    <h3>De 6 a 10 años</h3>
+                    <p>Le mostramos a tu pequeño que
+                        <span>aprender puede ser divertido</span>, con
+                        actividades diarias y prácticas como:</p>
+                    <ul>
+                        <div >🧮<li>Un gimnasio mental con ábaco</li></div>
+                        <div>🧪<li>Experimentos con reacciones
+                            químicas</li></div>
+                            <div>🚀<li>Construir su propio cohete</li></div>
+                    </ul>
+                    <a href="">¡INSCRÍBELO AHORA!</a>
+                </div>
+            </div>
+        </div>
+        <div class="agesRight">
+             
+            <img src="img_plan/j_1.webp" alt="">
+           
+            <div class="agesRightCont">
+                <div class="subDiv">
+
+                    <h3>De 11 a 14 años</h3>
+                    <p>Tu hijo <span>aprende de manera diferente</span>
+                        con cada actividad que realiza en
+                        nuestro Plan Vacacional.
+                        
+                        Impulsamos su creatividad, a través de:</p>
+                    <ul>
+                       <div>💰<li>Educación financiera para su futuro</li></div>
+                       <div>➗<li>Las matemáticas detrás de lo que nos rodea</li></div>
+                       <div>🔭<li>El lado divertido de las ciencias</li></div>
+                    </ul>
+                    <a href="">¡INSCRÍBELO AHORA!</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
 
 
 

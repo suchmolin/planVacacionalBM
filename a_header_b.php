@@ -53,7 +53,8 @@ window.dataLayer = window.dataLayer || [];
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/sectionAges.css" />
     
     <!-- Google Web Fonts -->
 <!--  <link rel="preconnect" href="https://fonts.googleapis.com">

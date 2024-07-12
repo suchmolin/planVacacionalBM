@@ -24,9 +24,11 @@ $la_hora = date("h:i:sa");  */
 
     <title>Boostermath Plan Vacacional</title>
   </head>
+  
+  
   <body class="t_regular">
     <div id="app">
-      <div class="hero ">
+      <div class="hergo ">
         <div class="heroNav">
 
             <img src="img_plan/logo-BM.svg" alt="">
@@ -41,7 +43,7 @@ $la_hora = date("h:i:sa");  */
             </div>
         </div>
         <div class="heroLeft t_regular">
-          <img class="ninoHeroMob" src="img_plan/ninoHero.png" alt="">
+
           <div class="tituloHero">
             <h1>Plan Vacacional</h1>
             <img width="330px" class="GSHero" src="img_plan/GSHero.png" alt="">
@@ -80,5 +82,25 @@ $la_hora = date("h:i:sa");  */
       </div> 
     </div>
     <script type="module" src="js/google_sheet.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>
