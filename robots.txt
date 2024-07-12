@@ -1,3 +1,18 @@
 User-agent: *
 
 Sitemap: https://www.boostermath.com/sitemap.xml
+
+Disallow: /00_sweetalerts/
+Disallow: /css/
+Disallow: /font/
+Disallow: /fontawesome/
+Disallow: /icons/
+Disallow: /img/
+Disallow: /img_bigs/
+Disallow: /img_blog/
+Disallow: /img_logos/
+Disallow: /img_plan/
+Disallow: /js/
+Disallow: /lib/
+Disallow: /scss/
+Disallow: /zzz/

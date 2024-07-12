@@ -288,19 +288,19 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
 
 
 <!-- About Start -->
-<div class="container-xxl py-5 margen_positivo ">
+<div class="container-xxl py-2 margen_positivo ">
         <div class="container">
             <div id="generacion" class="row g-4">
 
 
 
-            <div class="text-center wow mb-4 fadeInUp " data-wow-delay="0.1s">             
+            <div class="text-center wow  fadeInUp " data-wow-delay="0.1s">             
 
 
 
 <span class="text_color_aa cont_semi extrabbb t_ebold"><b>Plan Vacacional</b></span><br>
 
-<span><img loading="lazy" class="mb-2 textoimg" src="img_plan/titulo-GS.webp"  alt="Generación Steam Plan Vacacional" ></span>
+<span><img loading="lazy" class=" textoimg" src="img_plan/titulo-GS.webp"  alt="Generación Steam Plan Vacacional" ></span>
 
 
 
@@ -310,11 +310,11 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
 
 
 
-     <div class="col-lg-6 pe-4 cent_micro wow fadeInUp" data-wow-delay="0.1s"  >
+     <div class="col-lg-7 pe-4 cent_micro wow fadeInUp" data-wow-delay="0.1s"  >
                 <div class="position-relative " >
 
-<img loading="lazy" class="img-fluid " loading="lazy" src="img_plan/microscope.webp"
-                     alt="Microscopio de laboratorio de química" style="width:100%; "  width="534" height="258" >
+<img loading="lazy" class="img-fluid " loading="lazy" src="img_plan/chico_exitoso.webp"
+                     alt="Chico exitoso" style="width:100%; "  width="534" height="258" >
 
                 </div>
     </div>
@@ -323,12 +323,12 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
 
 
 
-<div  class="col-lg-6 wow ps-4"   data-wow-delay="0.3s" >
+<div  class="col-lg-5  wow ps-4"   data-wow-delay="0.3s" >
 
 
-<h3 class="mb-4 text_color_aa cont_semi_peq t_regular">Vacaciones divertidas y llenas de mucha ciencia, tecnología, ingeniería, arte y matemáticas.</h3>
+<h4 class=" mb-4 text_color_aa cont_semi_p_new t_regular vaca_text" >Vacaciones divertidas y llenas de mucha ciencia, tecnología, ingeniería, arte y matemáticas.</h4>
 
-<h3 class="mb-4 text_color_aa cont_semi_peq"><b class="t_ebold">Desarrolla todo el potencial de tu pequeño genio en las áreas STEAM con nuestro Plan Vacacional.<b></h3>
+<h4 class="mb-4 text_color_aa cont_semi_p_new"><b class="t_ebold">Desarrolla todo el potencial de tu pequeño genio en las áreas STEAM con nuestro Plan Vacacional.<b></h4>
 
 
 
@@ -369,27 +369,30 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
  <!-- About start -->
  <div class="container-xxl py-5 mb-4"  > <!-- style="background-color: cyan;" -->
         <div class="container">
-            <div class="row g-5" > <!-- style="background-color: yellow;" -->
+            <div class="row g-5"  > <!-- style="background-color: yellow;" -->
  
 
-            <div class="col-lg-1  wow fadeInUp " data-wow-delay="0.3s">                                   
+            <div class="col-lg-1 col-4  wow fadeInUp " data-wow-delay="0.3s" style="display: flex; justify-content:right; align-items:right">  
+
+<img loading="lazy" class="" src="img_plan/bombillo.webp" style="margin-top: -20px;"  alt="Bombillo de ideas" width="85" height="137.5" >   
+ <!--170 * 275 -->                             
                    
             </div>
 
 
-            <div class="col-lg-8  wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-lg-7 col-8 wow fadeInUp" data-wow-delay="0.3s">
 
             <h3 class="text_color_aa cont_huge t_regular"><b class="t_ebold">Un futuro brillante para tu hijo</b></h3>
             
-            <h4 class="text_color_aa  t_regular">impulsa la creatividad de tu hijo con clases divertidas y prácticas.</h4> 
+            <h4 class="text_color_aa  text_imp t_regular">Impulsa la creatividad de tu hijo con clases divertidas y prácticas.</h4> 
                    
             </div>
                 
   
 
-            <div class="col-lg-3  wow fadeInUp " data-wow-delay="0.3s">
+            <div class="col-lg-4 col-12 wow fadeInUp " data-wow-delay="0.3s" >
                 
-<div class="mt-2    "  >
+<div class="mt-2    "  style="display: flex; justify-content:center; align-items:center" >
 <a href="#contacto" class="btn btn-p_a_s t_ebold" >¡RESERVA SU CUPO!</a>
 </div>
                    
