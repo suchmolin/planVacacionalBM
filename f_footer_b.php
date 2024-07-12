@@ -31,10 +31,12 @@
 
                 <div class="col-lg-4 col-md-4">
                     <h4 class="azul_logo_text mb-3 t_ebold">Contacto</h4> 
-                    
-                    <p class="mb-2 t_bold"><i class="  fa fa-map-marker-alt me-3"></i><a class="azul_logo_text" href="https://www.google.com/maps/dir/10.4595456,-66.8205056/boostermath/@10.4711437,-66.876152,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8c2a5910092fca4d:0x2bd40061683270ef!2m2!1d-66.8540431!2d10.4852503?entry=ttu"><span style="font-size:14px;">C.C.C.T., Torre A, Piso 5, Ofic. A503.</span></a></p>
+
                     <p class="mb-2 "><i class=" fa fa-phone-alt me-3"></i><a class="azul_logo_text" href="tel:+584123408754"><span style="font-size:14px;">+58 (412) 340-8754</span></a></p>  
 
+                    
+                    <p class="mb-2 t_bold"><i class="  fa fa-map-marker-alt me-3"></i><a class="azul_logo_text" href="https://www.google.com/maps/dir/10.4595456,-66.8205056/boostermath/@10.4711437,-66.876152,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8c2a5910092fca4d:0x2bd40061683270ef!2m2!1d-66.8540431!2d10.4852503?entry=ttu"><span style="font-size:14px;">C.C.C.T., Torre A, Piso 5, Ofic. A503.</span></a></p>
+                    
 
 
 

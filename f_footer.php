@@ -110,6 +110,6 @@
 
     <script src="00_sweetalerts/sweetalert2.all.min.js"></script>
 
-
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 </html>

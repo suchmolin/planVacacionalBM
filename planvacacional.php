@@ -54,6 +54,7 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
               <a href="#foot_l">Contáctanos</a>
             </div>
         </div>
+
         <div class="heroLeft t_regular">
 
           <div class="tituloHero">
@@ -68,6 +69,7 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
 
           <img class="ninoHero" src="img_plan/ninoHero.png" alt="">
         </div>
+
         <div id="llenar" class="heroRight">
           <h3>¡Inscribe a tu futuro genio aquí!</h3>
           <form id="myForm" method="POST" class="form" action="" name="contact-form">
@@ -91,6 +93,8 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
             
           </form>
         </div>
+
+
       </div> 
     </div>
     <script type="module" src="js/google_sheet.js"></script>
@@ -494,13 +498,13 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
 
                     <h3>De 6 a 10 años</h3>
                     <p>Le mostramos a tu pequeño que
-                        <span>aprender puede ser divertido</span>, con
-                        actividades diarias y prácticas como:</p>
+                        <span>aprender puede ser divertido y entretenido</span>, con
+                        actividades diarias, dinámicas y prácticas como:</p>
                     <ul>
                         <div >🧮<li>Un gimnasio mental con ábaco</li></div>
                         <div>🧪<li>Experimentos con reacciones
                             químicas</li></div>
-                            <div>🚀<li>Educación financiera para niños</li></div>
+                            <div>🪙<li>Educación financiera para niños</li></div>
                     </ul>
                     <a href="#llenar">¡INSCRÍBELO AHORA!</a>
                 </div>
@@ -521,7 +525,7 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
                         Impulsamos su creatividad, a través de:</p>
                     <ul>
                        <div>💰<li>Educación financiera para su futuro</li></div>
-                       <div>➗<li>Las matemáticas detrás de lo que nos rodea</li></div>
+                       <div>➗<li>La matemática de lo que nos rodea</li></div>
                        <div>🔭<li>El lado divertido de las ciencias</li></div>
                     </ul>
                     <a href="#llenar">¡INSCRÍBELO AHORA!</a>

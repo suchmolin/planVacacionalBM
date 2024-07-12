@@ -447,6 +447,118 @@ setTimeout(function() {
 
 
 
+ <!-- About start -->
+ <div class="container-xxl py-3 mt-2 mb-1"  > <!-- style="background-color: cyan;" -->
+        <div class="container">
+<div class="row g-5 text-center" style="justify-content: center; display:flex" > <!-- style="background-color: yellow;" -->
+ 
+
+           
+
+
+            <div class="col-lg-12  wow fadeInUp" data-wow-delay="0.3s">
+
+
+
+           
+<h2 class="text_color_aa display-5 ">Vive una experiencia <span class="text_color_cc">increíble</span> con Boostermath</h4> 
+                   
+            </div>
+                
+  
+
+          
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+
+
+
+
+
+
+<section id="galeria" style="margin-bottom: 20px;">
+
+<span style="margin-bottom: 50px;">
+
+
+<div class="carousel"
+  data-flickity='{ "imagesLoaded": true, "percentPosition": false, "wrapAround": true, "autoPlay": true}'>
+
+  <img src="img_plan/c_b.webp" alt="submerged" />
+  <img src="img_plan/c_c.webp" alt="look-out" />
+  <img src="img_plan/c_a.webp" alt="orange tree" />
+  <img src="img_plan/c_d.webp" alt="orange treedd" />
+  <img src="img_plan/c_e.webp" alt="submergeddd" />
+  <img src="img_plan/c_f.webp" alt="look-outdd" />
+</div>
+
+
+
+
+
+
+
+</span>
+
+</section>
+
+
+
+
+
+
+<style>
+
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel img {
+  display: block;
+  height: 200px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel img {
+    height: 400px;
+  }
+}
+
+/* position dots in carousel */
+.flickity-page-dots {
+  bottom: 0px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 0px;
+  height: 0px;
+  opacity: 1;
+  background: transparent;
+  border: 0px solid white;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: transparent;
+}
+
+
+
+
+
+</style>
+
+
+
+
+
 
 </body>
 
