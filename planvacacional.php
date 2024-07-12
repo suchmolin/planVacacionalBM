@@ -525,7 +525,7 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
                         Impulsamos su creatividad, a través de:</p>
                     <ul>
                        <div>💰<li>Educación financiera para su futuro</li></div>
-                       <div>➗<li>La matemática de lo que nos rodea</li></div>
+                       <div>➗<li>El uso práctico de las matemáticas</li></div>
                        <div>🔭<li>El lado divertido de las ciencias</li></div>
                     </ul>
                     <a href="#llenar">¡INSCRÍBELO AHORA!</a>
