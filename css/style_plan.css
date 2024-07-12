@@ -1477,6 +1477,84 @@ ol li::after {
 
 
 
+
+
+@media (max-width: 350px)
+{
+    .vaca_text {
+        margin-top: 0px;
+         
+        }
+}
+
+@media (min-width: 351px) and (max-width: 560px) 
+{
+    .vaca_text {
+        margin-top: 0px;
+         
+        }
+}
+
+@media (min-width: 561px)
+{
+.vaca_text {
+    margin-top: 60px;
+        
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 350px)
+    {
+    .cont_semi_p_new {
+             font-size:10px;
+             
+            }
+    }
+    
+    @media (min-width: 351px) and (max-width: 560px) 
+    {
+    .cont_semi_p_new {
+             font-size:14px;
+             
+            }
+    }
+    
+    @media (min-width: 561px)
+    {
+    .cont_semi_p_new {
+            font-size:18px;
+            
+            }
+    }
+
+
+
+
+
+
+
+
+
+
     @media (max-width: 350px)
     {
     .infoimg {
@@ -2413,6 +2491,8 @@ margin-top: 60px;
 
             @media (max-width: 350px)
             {
+       
+
             .btn-primary_alt_short_wwhite_a_mora {     /* no los estoy variando */
                 width: 210px;
                 height: 22px;
@@ -2438,6 +2518,17 @@ margin-top: 60px;
             
             @media (min-width: 351px) and (max-width: 560px) 
             {
+
+
+.btn-p_a_s {
+
+    width: 240px;
+    height: 32px;
+    font-size: 14px;
+    padding-top: 6px;
+
+}
+                
             .btn-primary_alt_short_wwhite_a_mora {
                 width: 240px;
                 height: 32px;
@@ -2461,9 +2552,43 @@ margin-top: 60px;
 
 
             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             
             @media (min-width: 561px)
             {
+
+
+
+                .btn-p_a_s {
+
+                    width: 260px;
+                height: 52px;
+                font-size: 20px;
+                padding-top: 12px;
+                
+                }
+
+                .text_imp {
+                    font-size: 22px;
+                }
+
+
+
             .btn-primary_alt_short_wwhite_a_mora {
                 width: 340px;
                 height: 52px;
@@ -2514,6 +2639,51 @@ margin-top: 60px;
                     color: #001D76;
                 
                 }
+
+
+
+
+
+
+
+                .btn-p_a_s {
+                
+                
+                    background-color: #14becd;
+                    color: white;
+                    border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+                    
+                    font-weight: bold;  /* para que quedan mas gruesas */
+                    
+                    cursor: pointer;
+                    transition: all 1s ease;
+                    border-radius: 30px;
+        
+                    }
+                
+                
+                    .btn-p_a_s:hover {
+                
+                        background-color: #a801a7;
+                        color: white;
+                    
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

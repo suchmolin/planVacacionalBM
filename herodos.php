@@ -1,3 +1,18 @@
+<?php 
+
+
+$dt = new DateTime("now", new DateTimeZone('America/Caracas'));
+
+$hoy_es = $dt->format('d-m-Y h:i:sa');
+
+/* 
+$hoy_es = date("d-m-Y h:i:sa");   
+
+$la_hora = date("h:i:sa");  */
+
+?>
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -42,11 +57,24 @@
         <div class="heroRight">
           <h3>¡Inscribe a tu futuro genio aquí!</h3>
           <form id="myForm" method="POST" class="form" action="" name="contact-form">
-            <input type="text" placeholder="Nombre y Apellido" name="nombre">
-            <input type="text" placeholder="Ciudad" name="ciudad">
-            <input type="text" placeholder="Correo Electrónico" name="correo">
-            <input type="text" placeholder="Número de contacto" name="numero">
-            <button type="submit">Enviar</button>
+
+          <input type="hidden" id="Origen" name="Origen" value="Landing Booster" />  
+
+            <input type="text" placeholder="Nombre y Apellido" name="Nombre">
+            <input type="text" placeholder="Ciudad" name="Ciudad">
+            <input type="email" placeholder="Correo Electrónico" name="Correo">
+            <input type="number" placeholder="Número de contacto" name="Telf">
+
+
+            <input type="hidden" id="Fecha_de_Solicitud" name="Fecha_de_Solicitud" value="<?php echo $hoy_es; ?>" />  
+
+
+            <button class="" style="" type="submit" id='btn_send_me' name="submit" onclick="this.innerHTML='¡Enviando!';">Enviar</button>
+
+
+
+
+            
           </form>
         </div>
       </div> 
