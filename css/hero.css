@@ -77,7 +77,7 @@
 
   .heroLeft{
     position: relative;
-    background-image: url('../img_plan/rectangle.png');
+    background-image: url('../img_plan/rectangle.webp');
     background-size: 100% 100%;
     background-position: center;
     width: 100%;
@@ -325,7 +325,7 @@
   
     .heroLeft{
       position: relative;
-      background-image: url('../img_plan/rectangle.png');
+      background-image: url('../img_plan/rectangle.webp');
       background-size: 100% 100%;
       background-position: center;
       width: 100%;
@@ -547,7 +547,7 @@
   
     .heroLeft{
       position: relative;
-      background-image: url('../img_plan/rectangle.png');
+      background-image: url('../img_plan/rectangle.webp');
       background-size: 100% 100%;
       background-position: center;
       width: 100%;
@@ -761,7 +761,7 @@
   
     .heroLeft{
       position: relative;
-      background-image: url('../img_plan/rectangle.png');
+      background-image: url('../img_plan/rectangle.webp');
       background-size: boder-box;
       background-position: center;
       width: 65%;
@@ -972,7 +972,7 @@
   
     .heroLeft{
       position: relative;
-      background-image: url('../img_plan/rectangle.png');
+      background-image: url('../img_plan/rectangle.webp');
       background-size: border-box;
       background-position: center;
 

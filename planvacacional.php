@@ -43,7 +43,7 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
       <div class="hergo ">
         <div class="heroNav">
 
-            <img src="img_plan/logo-BM.svg" alt="">
+            <img src="img_plan/logo-BM.svg" alt="Logo BoosterMath">
             <div class="subMenu">
               
               <ul>
@@ -59,15 +59,15 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
 
           <div class="tituloHero">
             <h1>Plan Vacacional</h1>
-            <img width="330px" class="GSHero" src="img_plan/GSHero.png" alt="">
-            <img  class="itemsHero" src="img_plan/icons-steam.png" alt="">
+            <img width="330px" class="GSHero" src="img_plan/GSHero.webp" alt="Generación Steam Plan Vacacional">
+            <img  class="itemsHero" src="img_plan/icons-steam.webp" alt="Iconos Steam de colores">
             <h2>¡Diversión, creatividad e innovación</h2>
             <p>en un solo lugar!</p>
             <a href="#">¡Inscribe a tu futuro genio ahora!</a>
           </div>
 
 
-          <img class="ninoHero" src="img_plan/ninoHero.png" alt="">
+          <img class="ninoHero" src="img_plan/ninoHero.webp" alt="Estudiante de Ciencias">
         </div>
 
         <div id="llenar" class="heroRight">
@@ -76,10 +76,10 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
 
           <input type="hidden" id="Origen" name="Origen" value="Landing Booster" />  
 
-            <input type="text" placeholder="Nombre y Apellido" name="Nombre">
-            <input type="text" placeholder="Ciudad" name="Ciudad">
-            <input type="email" placeholder="Correo Electrónico" name="Correo">
-            <input type="number" placeholder="Número de contacto" name="Telf">
+            <input type="text" placeholder="Nombre y Apellido" name="Nombre" required>
+            <input type="text" placeholder="Ciudad" name="Ciudad" required>
+            <input type="email" placeholder="Correo Electrónico" name="Correo" required>
+            <input type="number" placeholder="Número de contacto" name="Telf" required>
 
 
             <input type="hidden" id="Fecha_de_Solicitud" name="Fecha_de_Solicitud" value="<?php echo $hoy_es; ?>" />  
@@ -230,7 +230,7 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
                         <img loading="lazy" id="calendarImage_d" class="mt-1" src="img_plan/age.webp" width="72" height="71" alt="Icono diferentes edades" ><br><br>
 
 <span class="text_color_aa cont_cajetillas t_medium" >Edades entre</span><br>
-<span class="text_color_aa cont_cajetillas" ><b class="t_ebold">6-17 AÑOS</b></span>
+<span class="text_color_aa cont_cajetillas" ><b class="t_ebold">6-14 AÑOS</b></span>
 
                         </div>
                     </div>
@@ -492,7 +492,7 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
     <section id="ages" class="sectionAges">
         <div class="agesLeft">
             
-            <img src="img_plan/j_2.webp" alt="">           
+            <img src="img_plan/j_2.webp" alt="chica estudiante de arte" loading="lazy">           
             <div class="agesLeftCont">
                 <div class="subDiv">
 
@@ -512,7 +512,7 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
         </div>
         <div class="agesRight">
              
-            <img src="img_plan/j_1.webp" alt="">
+            <img src="img_plan/j_1.webp" alt="chico estudiante de ciencias" loading="lazy">
            
             <div class="agesRightCont">
                 <div class="subDiv">
@@ -590,12 +590,12 @@ $hoy_es = $dt->format('d-m-Y h:i:sa');
 <div class="carousel"
   data-flickity='{ "imagesLoaded": true, "percentPosition": false, "wrapAround": true, "autoPlay": true}'>
 
-  <img src="img_plan/c_b.webp" alt="submerged" />
-  <img src="img_plan/c_c.webp" alt="look-out" />
-  <img src="img_plan/c_a.webp" alt="orange tree" />
-  <img src="img_plan/c_d.webp" alt="orange treedd" />
-  <img src="img_plan/c_e.webp" alt="submergeddd" />
-  <img src="img_plan/c_f.webp" alt="look-outdd" />
+  <img src="img_plan/c_b.webp" alt="pequeño estudiante generación steam" loading="lazy" />
+  <img src="img_plan/c_c.webp" alt="bienvenidos a boostermath" loading="lazy" />
+  <img src="img_plan/c_a.webp" alt="profesor dedicado boostermath" loading="lazy" />
+  <img src="img_plan/c_d.webp" alt="chicos recibiendo clases" loading="lazy" />
+  <img src="img_plan/c_e.webp" alt="resolviendo inquietudes matematicas" loading="lazy"/>
+  <img src="img_plan/c_f.webp" alt="programa personalizado boostermath" loading="lazy" />
 </div>
 
 

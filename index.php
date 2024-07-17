@@ -1,7 +1,7 @@
 <?php
 
 
- /* header("Location: planvacacional");  */
+  header("Location: planvacacional"); 
 
 
 ?>
@@ -158,7 +158,7 @@
 
                             <!-- Modal -->
                     <div class="modal fade" id="exampleModal_a" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="margin-top:-20px" >
-                        <div class="modal-dialog modal-lg modal-dialog modal-dialog-centered ">
+                        <div class="modal-dialog modal-xl modal-dialog modal-dialog-centered ">
 
                             <div class="modal-content " >
 
