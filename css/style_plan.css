@@ -146,6 +146,7 @@
 
         .cent_micro  {
             margin-left: 4px;
+            
         }
 
         .cent_abaco  {
@@ -2937,6 +2938,7 @@ margin-top: 60px;
                        
                        @media (min-width: 351px) and (max-width: 560px) 
                        {
+                        
                        .textoimg {
                                width:326px;
                                height: 45px;  
@@ -2947,8 +2949,8 @@ margin-top: 60px;
                        @media (min-width: 561px)
                        {
                        .textoimg {
-                                width:652px;
-                                height: 90px;   
+                                width:400px;
+                                height: 60px;   
                                
                                }
                        }

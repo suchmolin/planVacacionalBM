@@ -1,0 +1,117 @@
+.steamSec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    h3{
+        color: #001d76;
+        font-weight: bold;
+    }
+
+    .steamBox{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        .itemBox{
+            position: relative;
+            color: #001d76;
+            padding: 20px 0;
+            width: 18%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 60%;
+                margin-bottom: 10px;
+            }
+
+            h4{
+                font-weight: bold;
+                text-align: center;
+            }
+            p{
+                font-weight: lighter;
+                padding: 0 40px;
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+
+
+    }
+}
+
+
+@media (min-width: 630px) and (max-width: 1330px) 
+{
+    .steamSec{
+        
+        .steamBox {
+            .itemBox{
+                width: 30%;
+                
+                img{
+                    width: 40%;
+                }
+                p{
+                    padding: 0 10px;
+                }
+                
+            }
+            
+        }
+    }
+}
+
+@media (min-width: 400px) and (max-width: 629px) {
+
+
+    .steamSec{
+        
+        .steamBox {
+            .itemBox{
+                width: 45%;
+                
+                img{
+                    width: 40%;
+                }
+                p{
+                    padding: 0 10px;
+                }
+                
+            }
+            
+        }
+    }
+}
+@media (min-width: 1px) and (max-width: 399px) {
+
+
+    .steamSec{
+        
+        .steamBox {
+            .itemBox{
+                width: 70%;
+                padding: 0;
+                
+                img{
+                    width: 50%;
+                }
+                p{
+                    padding: 0 10px;
+                }
+                
+            }
+            
+        }
+    }
+}
