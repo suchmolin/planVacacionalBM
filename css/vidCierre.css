@@ -1,0 +1,36 @@
+.vidCierre{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 50px 0;
+
+    .contVid{
+        width: 90%;
+        padding: 20px 0 0 0;
+        
+        
+    }
+}
+
+@media (min-width: 1024px) {
+    .vidCierre{
+        
+        
+        .contVid{
+            width: 70%;
+            
+        }
+    }
+}
+
+@media (min-width: 1330px) {
+    .vidCierre{
+
+        .contVid{
+            width: 60%;
+        }
+    }
+}
+

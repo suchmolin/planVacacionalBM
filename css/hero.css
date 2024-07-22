@@ -8,10 +8,25 @@
 
 .hergo{
   position: relative;
-  height: 650;
+  
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  background-color: #001d76;
+
+  .vid{
+    background-image: url('../img_plan/math-bg-20.webp');
+    background-size: cover;
+    position: relative;
+    width: 95%;
+    z-index: 50;
+    display: block;
+    padding: 20px 0px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
   
 
   .heroNav{    
@@ -266,10 +281,11 @@
 @media (min-width: 640px) {
   .hergo{
     position: relative;
-    height: 730px;
+    
     width: 100%;
     display: flex;
     flex-direction: column;
+    
   
     .heroNav{
       position: absolute;
@@ -344,9 +360,9 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: start;
+        align-items: center;
         margin-top: 40px;
-        padding: 70px 0 40px 8%;
+        padding: 70px 0 40px 0;
         z-index: 50;
         
         
@@ -490,7 +506,7 @@
 @media (min-width: 768px) { 
   .hergo{
     position: relative;
-    height: 730px;
+    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -567,7 +583,7 @@
         flex-direction: column;
         justify-content: center;
         margin-top: 40px;
-        padding: 70px 0 40px 14%;
+        padding: 70px 0 40px 0;
         
         
   
@@ -707,10 +723,19 @@
     display: flex;
     flex-direction: row;
     background-color: #001d76;
+
+    .vid{
+      background-image: none;
+      position: absolute;
+      width: 55%;
+      right: 40px;
+      margin-top: 70px;
+    }
   
   
     .heroNav{
       position: absolute;
+      top: 0%;
       height: 140px;
       width: 100%;
       display: flex; 
@@ -767,8 +792,9 @@
       width: 65%;
       height: 100%;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
       z-index: 30;
       
       
@@ -777,7 +803,7 @@
       .tituloHero{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         padding: 0 0 0 6%;
         
         margin-top: 40px;
@@ -911,7 +937,7 @@
 } 
 
 /***************XL**********************************/
-@media (min-width: 1330px) {
+@media (min-width: 1360px) {
   
   .hergo{
     position: relative;
@@ -919,6 +945,10 @@
     width: 100%;
     display: flex;
     background-color: #001d76;
+
+    .vid{
+      right: 80px;
+    }
   
     .heroNav{
       position: absolute;
@@ -979,8 +1009,9 @@
       width: 65%;
       height: 100%;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
       z-index: 30;
       
       
